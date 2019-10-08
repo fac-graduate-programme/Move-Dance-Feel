@@ -1,0 +1,25 @@
+{
+  "name": "move-dance-feel",
+  "version": "1.0.0",
+  "description": "This is the 3rd Project for Founder &amp; Coder's Founders Program",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "lint-fix": "npm run lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-graduate-programme/Move-Dance-Feel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-graduate-programme/Move-Dance-Feel/issues"
+  },
+  "homepage": "https://github.com/fac-graduate-programme/Move-Dance-Feel#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
