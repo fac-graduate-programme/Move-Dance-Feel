@@ -1,3 +1,60 @@
+/* start who we are style */
+.who-we-are-section{
+  margin-top: 80px;
+}
+.heading-title {
+  margin-bottom: 46px;
+  text-align: center;
+}
+.heading-title h1 {
+  color: #000000;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.heading-title h1::after {
+  background: #b89b5e none repeat scroll 0 0;
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+}
+.heading-title h1 span {
+  display: block;
+}
+
+.who-content{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.who-content-div{
+  width: 50%;
+}
+.who-content-div .pargraph-left{
+  font-size: 21px;
+  width: 98%;
+  color: #6f6d6d;
+  margin-bottom: 72px;
+  padding: 10px;
+}
+.who-content-div .pargraph-right{
+  font-size: 21px;
+  width: 98%;
+  color: #6f6d6d;
+  padding: 10px;
+  margin-top: 9px;
+  margin-left: 13px;
+}
+.who-content img{
+  width: 100%;
+  height: 300px;
+}
+/* end who we are style */
+
+
 /* start carausel style */
 .CSSgal {
   position: relative;
@@ -134,6 +191,30 @@
   text-decoration: none;
 }
 /* end carsouel style */
+
+
+/* start work-with-section style */
+.work-with-section{
+margin: 88px 0;
+}
+.work-with-content-div{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+
+}
+.work-with-content-div img{
+  padding: 40px;
+  width: 313px;
+  height: 135px;
+}
+/* end work-with-section style  */
+
+
+
+
+
+
 
 /*start cards section */
 .cards{
