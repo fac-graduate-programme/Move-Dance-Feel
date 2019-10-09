@@ -4,35 +4,32 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const compression = require('compression');
-
-const controllers = require('./controllers/index');
+const error = require('./controllers/error');
+const controllers = require('./controllers');
 
 const app = express();
-
+app.set('port', process.env.PORT || 7000);
+app.disable('x-powered-by');
+app.set('views', path.join(__dirname, 'views'));
+app.engine('hbs',
+  exphbs({
+    extname: 'hbs',
+    defaultView: 'default',
+    layoutsDir: path.join(__dirname, 'views', 'layouts'),
+    partialsDir: path.join(__dirname, 'views', 'partials'),
+    defaultLayout: 'main',
+  }));
+app.set('view engine', 'hbs');
+app.use(express.static('public'));
 const middleware = [
-    helmet(),
-    compression(),
-    bodyParser.urlencoded({ extended: false}),
-    bodyParser.json(),
+  helmet(),
+  compression(),
+  bodyParser.urlencoded({ extended: false }),
+  bodyParser.json(),
 ];
 app.use(middleware);
-
-app.set('port', process.env.PORT || 7000);
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
-
-app.engine('hbs',
- exphbs({
-extname: 'hbs',
-defaultView: 'default',
-layoutsDir: path.join(__dirname, 'views', 'pages'),
-partialsDir: path.join(__dirname, 'views', 'partials'),
-defaultLayout: 'main'
-// helpers
-})
-);
-
-app.use(express.static(path.join(__dirname, '..', 'public')));
-// app.use(controllers);
+app.use(controllers);
+app.use(error.client);
+app.use(error.server);
 
 module.exports = app;
