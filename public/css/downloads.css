@@ -1,9 +1,10 @@
 /* start carausel style */
+
 .CSSgal {
     position: relative;
     overflow: hidden;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 73px;
     margin-bottom: 50px;
   }
   
@@ -110,7 +111,7 @@
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: #17423a;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -129,6 +130,8 @@
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+    color:#B1C9C5 ;
+
   }
   .slid-arrow{
     float: left;
@@ -144,13 +147,24 @@
   .active,
   .demo:hover {
     opacity: 1;
-    background: #b89b5e;
+    background: #B1C9C5 ;
     width: 20px;
     height: 20px;
   }
-  /* B1C9C5 */
+  .slider-text{
+    text-align: -webkit-center;
+    margin: 70px 0px 0px 0px;
+  }
+  .slider-pargraph{
+    color: #898989;
+    text-align: -webkit-center;
+    font-family: 'Kite One', sans-serif;
+    font-size: 18px;
+    width: 38%;
+  }
   /* end carsouel style */
   
+
 .pdf {
 display: flex;
 flex-direction: column;

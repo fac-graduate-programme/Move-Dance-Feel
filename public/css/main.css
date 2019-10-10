@@ -1,4 +1,6 @@
-
+.section{
+  margin-top: 90px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@
   line-height: 22px;
 }
 .heading-title h1::after {
-  background: #b89b5e none repeat scroll 0 0;
+  background: #B1C9C5 none repeat scroll 0 0;
   content: " ";
   display: inline-block;
   height: 2px;
