@@ -6,7 +6,7 @@ align-items: center;
 
 .download {
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-around;  
     align-items: center;
     margin: 2em;
 }
