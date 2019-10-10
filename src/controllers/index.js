@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const home = require('./home');
+const home = require('./downloads');
 
 router.get('/', home.get);
 

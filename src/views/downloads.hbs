@@ -1,3 +1,48 @@
+{{!-- start slider section --}}
+<section>
+    <div class="heading-title">
+        <h1>
+            <span>Easy Share Information pack</span>
+        </h1>
+    </div>
+    <div class="CSSgal">
+        <s id="s1"></s>
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <div class="slider">
+            <div class="slider-image">
+                <img src='assets/images/10.jpg'>
+                <img src='assets/images/7.jpg'>
+                <img src='assets/images/13.jpg'>
+            </div>
+            <div class="slider-image">
+                <img src='assets/images/3.png'>
+                <img src='assets/images/14.jpg'>
+                <img src='assets/images/9.jpg'>
+            </div>
+            <div class="slider-image">
+                <img src='assets/images/11.jpg'>
+                <img src='assets/images/16.jpg'>
+                <img src='assets/images/12.jpg'>
+            </div>
+
+        </div>
+        <div class="slid-arrow">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <div class="bullets">
+            <a class="demo" onclick="currentSlide(1)"></a>
+            <a class="demo" onclick="currentSlide(2)"></a>
+            <a class="demo" onclick="currentSlide(3)"></a>
+        </div>
+    </div>
+    <p>Know someone who would benefit from coming to a session? Send them this PDF or print it out for them </p>
+</section>
+{{!-- end slider section --}}
+
+
 {{!-- start download section --}}
 <section class="pdf">
     <div class="download">
@@ -7,11 +52,11 @@
             Download
         </a>
     </div>
-    <div class="pdf_viewer"> 
+    <div class="pdf_viewer">
         {{!-- chrome blocks pdfs being loaded directly in an iframe depending on some security settings so this is a work around using google doc view --}}
         <iframe
             src="http://docs.google.com/gview?url=http://www.lahf.org.uk/sites/default/files/MDF%20Evaluation%20Report%20%28April%202019%29%20pdf-compressed.pdf&embedded=true"
-             frameborder="0"></iframe>
+            frameborder="0"></iframe>
 
     </div>
 </section>

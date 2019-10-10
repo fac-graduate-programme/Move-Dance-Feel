@@ -6,6 +6,31 @@
     direction: ltr;
     font-size: 100%;
 }
+/* start heading style */
+.heading-title {
+  margin-bottom: 46px;
+  text-align: center;
+}
+.heading-title h1 {
+  color: #000000;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.heading-title h1::after {
+  background: #b89b5e none repeat scroll 0 0;
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+}
+.heading-title h1 span {
+  display: block;
+}
+
+/* end heading style */
+
 /*start style of footer section*/
 .footer {
   background-color: #191919;
