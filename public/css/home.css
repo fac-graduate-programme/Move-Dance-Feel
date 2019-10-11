@@ -188,30 +188,34 @@ margin: 88px 0;
 
 /*start partener section */
 .partener{
-  background-color: #b89b5e;
+  background-color: #B1C9C5;
   text-align: center;
   height: 223px;
   padding-top: 64px;
 }
 .partener h2{
   margin-top: -46px;
-  color: #e5e5e5;
   font-size: 26px;
-  font-weight: bold;
   padding: 10px 10px;
+  color: #912F00;
+  font-family: 'Kite One', sans-serif;
+  line-height: 22px;
 }
 
 .partener p{
-
   font-size: 19px;
   width: 595px;
   text-align: -webkit-left;
   margin-left: 378px;
+  margin-top: 10px;
+  color: #f7f0f0;
+  font-family: 'Kite One', sans-serif;
+
 }
 
 .partener a {
   background: #FFFFFF none repeat scroll 0 0;
-  color: #1F1F1F;
+  color: #912F00;
   display: inline-block;
   font-family: "Open Sans",sans-serif;
   font-size: 14px;
@@ -222,11 +226,11 @@ margin: 88px 0;
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   line-height: 42px;
-  margin-top: 22px;
+  margin-top: 15px;
 
 }
 .partener a .fa {
-  color: #1F1F1F;
+  color: #912F00;
   font-size: 14px;
   border-left: 1px solid #D2D2D2;
   padding-left: 15px;
@@ -234,14 +238,14 @@ margin: 88px 0;
   line-height: 42px;
 }
 .partener a:hover .fa {
-  color: #1f1f1f;
-  border-color: #1F1F1F;
+  color: #912F00;
+  border-color: #912F00;
 }
 
 .partener a:hover {
-  background: #B89B5E;
-  color: #1f1f1f;
-  border-color: #1F1F1F;
+  background: #B1C9C5;
+  color: #912F00;
+  border-color: #912F00;
 }
 
 /*end partener section */
