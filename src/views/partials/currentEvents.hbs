@@ -1,0 +1,13 @@
+<section class="event_section">
+
+    <h2 class="subheading_font">Upcoming Events</h2>
+    <ul>
+        {{#each data}} <li>
+            <p class="event_date">{{date}}</p>
+            <p class="event_details">{{details}}</p>
+            <a class="event_link" href={{url}}>{{link}}</a>
+        </li>
+        {{/each}}
+    </ul>
+
+</section>
