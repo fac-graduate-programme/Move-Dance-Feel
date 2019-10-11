@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+
+<body>
+
+  <main>
+    {{>header}}
+    {{{body}}}
+  </main>
+  {{>footer}}
+  {{#each js}}
+  <script src="js/{{this}}.js"></script>
+  {{/each}}
+</body>
+
+</html>
