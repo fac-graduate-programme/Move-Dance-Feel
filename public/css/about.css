@@ -52,7 +52,7 @@
     margin-top: 20px;
     color: #912F00;
     font-size: 25px;
-    padding-left: 7vw;
+    padding-left: 10vw;
     width: 80%;
 }
 
@@ -63,8 +63,8 @@
 
 .main-paragraph{
     font-size: 25px;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 @media only screen and (max-width:1300px){
