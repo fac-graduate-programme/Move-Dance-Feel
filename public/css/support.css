@@ -1,3 +1,20 @@
+.support_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.support_container h1 {
+    font-size: 30px;
+    margin: 1em;
+    color: #B0663F;
+}
+
+.support_container p {
+    font-family: 'Kite One', sans-serif;
+}
 .support_volunteer_button {
   background-color: #b1c9c5;
   padding: 10px 20px;
@@ -7,20 +24,8 @@
   margin: 1em;
   font-family: 'Kite One', sans-serif;
 }
-.support_container h1 {
-    font-size: 30px;
-    margin: 1em;
-    color: #B0663F;
-}
-.support_container p {
-    font-family: 'Kite One', sans-serif;
-}
-.support_container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
+
+
 
 .support_volunteer {
   display: flex;
@@ -32,6 +37,17 @@
 .support_volunteer_intro {
   width: 40%;
   min-width: 250px;
+}
+
+/* Timeline CSS */
+
+.support_timeline {
+    position: relative;
+  width: 80%;
+  max-width: 950px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
 }
 
 .timeline_content {
@@ -47,14 +63,7 @@
   justify-self: center;
   width: 30px;
 }
-.support_timeline {
-    position: relative;
-  width: 80%;
-  max-width: 950px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 50px 1fr;
-}
+
 
 .support_timeline::before {
   left: 50%;
