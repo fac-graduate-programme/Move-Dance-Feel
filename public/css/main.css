@@ -1,4 +1,8 @@
+.section{
+  margin-top: 90px;
+}
 
+/*general css avalible for all pages*/
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,45 @@
     direction: ltr;
     font-size: 100%;
 }
+/* start heading style */
+.heading-title {
+  margin-bottom: 46px;
+  text-align: center;
+}
+.heading-title h1 {
+  color: #000000;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.heading-title h1::after {
+  background: #B1C9C5 none repeat scroll 0 0;
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+}
+.heading-title h1 span {
+  display: block;
+}
+
+/* end heading style */
+
+@font-face {
+  font-family: "Quentin";
+  src: url("../assets/Quentin.ttf") format("truetype");
+}
+
+.subheading_font{
+  font-family: "Quentin";
+  font-size: 30px;
+  color: #912F00;
+  
+}
+
 /*start style of footer section*/
+
 .footer {
   background-color: #191919;
   height: 121px;
