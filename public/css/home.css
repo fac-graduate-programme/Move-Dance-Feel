@@ -1,3 +1,220 @@
+/* start who we are style */
+.who-we-are-section{
+  margin-top: 80px;
+}
+.heading-title {
+  margin-bottom: 46px;
+  text-align: center;
+}
+.heading-title h1 {
+  color: #000000;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.heading-title h1::after {
+  background: #b89b5e none repeat scroll 0 0;
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+}
+.heading-title h1 span {
+  display: block;
+}
+
+.who-content{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.who-content-div{
+  width: 50%;
+}
+.who-content-div .pargraph-left{
+  font-size: 21px;
+  width: 98%;
+  color: #6f6d6d;
+  margin-bottom: 72px;
+  padding: 10px;
+}
+.who-content-div .pargraph-right{
+  font-size: 21px;
+  width: 98%;
+  color: #6f6d6d;
+  padding: 10px;
+  margin-top: 9px;
+  margin-left: 13px;
+}
+.who-content img{
+  width: 100%;
+  height: 300px;
+}
+/* end who we are style */
+
+
+/* start carausel style */
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.CSSgal .slider {
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s;
+}
+
+.slider div {
+  display: flex;
+}
+
+.slider img {
+  width: 32.33%;
+  height: 430px;
+}
+
+/* SLIDES */
+
+.CSSgal .slider>* {
+  font-size: 1rem;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: middle;
+  height: 500px;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.CSSgal .bullets>a {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  background: #333;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.CSSgal .bullets>a+a {
+  background: rgba(255, 255, 255, 0.5);
+  /* Dim all but first */
+}
+
+.CSSgal .bullets>a:hover {
+  background: #ccc !important;
+}
+
+/* NAVIGATION BUTTONS */
+
+/* ALL: */
+
+.CSSgal>s:target~.bullets>* {
+  background: #ccc;
+}
+
+/* ACTIVE */
+
+#s1:target~.bullets>*:nth-child(1) {
+  background: #b89b5e;
+  width: 20px;
+  height: 20px;
+}
+
+#s2:target~.bullets>*:nth-child(2) {
+  background: #b89b5e;
+  width: 20px;
+  height: 20px;
+}
+
+#s3:target~.bullets>*:nth-child(3) {
+  background: #b89b5e;
+  width: 20px;
+  height: 20px;
+}
+
+#s1:target~.slider {
+  transform: translateX( 0%);
+  -webkit-transform: translateX( 0%);
+}
+
+#s2:target~.slider {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+#s3:target~.slider {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
+}
+
+
+
+.CSSgal {
+  color: #fff;
+  text-align: center;
+}
+
+.CSSgal .slider h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em;
+}
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+/* end carsouel style */
+
+
+/* start work-with-section style */
+.work-with-section{
+margin: 88px 0;
+}
+.work-with-content-div{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+
+}
+.work-with-content-div img{
+  padding: 40px;
+  width: 313px;
+  height: 135px;
+}
+/* end work-with-section style  */
+
+
+
+
+
+
 
 /* start testemonial style */
 .testemonial{
