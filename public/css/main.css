@@ -1,4 +1,5 @@
 
+/*general css avalible for all pages*/
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,19 @@
     direction: ltr;
     font-size: 100%;
 }
+
+@font-face {
+  font-family: "Quentin";
+  src: url("../assets/Quentin.ttf") format("truetype");
+}
+
+.subheading_font{
+  font-family: "Quentin";
+  
+}
+
 /*start style of footer section*/
+
 .footer {
   background-color: #191919;
   height: 121px;
