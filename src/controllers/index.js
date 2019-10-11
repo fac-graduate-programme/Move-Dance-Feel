@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const error = require('./error');
 const home = require('./home');
-// const about = require('./about');
+const about = require('./about');
 // const events = require('./events');
 // const currentEvent = require('./events');
 // const research = require('./research');
@@ -13,7 +13,7 @@ const home = require('./home');
 // const bookingForm = require('./bookingForm');
 
 router.get('/', home.get);
-// router.get('/about', about.get);
+router.get('/about', about.get);
 // router.get('/events', events.get);
 // router.get('/current-events', currentEvent.get);
 // router.get('/research', research.get);

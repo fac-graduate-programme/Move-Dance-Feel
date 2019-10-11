@@ -1,0 +1,66 @@
+.about-us-section{
+    margin-top: 80px
+}
+
+.about-us-title{
+    text-align: center
+}
+
+.about-us-h1{
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.about-us-h3{
+    margin-top: 60px;
+    color: #000000;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.about-us-content-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    padding: 3vw;
+    max-width: 100%;
+    
+}
+
+
+.left-paragraph-div{
+width: 50%;
+}
+
+.right-video-div{
+    width: 50%;
+}
+
+.left-paragraph{
+    margin-top: 20px;
+    color: #912F00;
+    font-size: 25px;
+    padding-left: 7vw;
+    width: 80%;
+}
+
+.right-video{
+
+width: 760px;
+height: 480px; 
+
+   
+    
+} 
+
+.main-paragraph{
+font-size: 25px;
+padding-left: 7vw;
+padding-right: 7vw;
+
+}
