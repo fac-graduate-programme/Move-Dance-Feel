@@ -3,7 +3,7 @@ const router = require('express').Router();
 const error = require('./error');
 const home = require('./home');
 const about = require('./about');
-// const events = require('./events');
+const events = require('./events');
 // const currentEvent = require('./events');
 const research = require('./research');
 const downloads = require('./downloads');
@@ -14,7 +14,7 @@ const downloads = require('./downloads');
 
 router.get('/', home.get);
 router.get('/about', about.get);
-// router.get('/events', events.get);
+router.get('/events', events.get);
 // router.get('/current-events', currentEvent.get);
 router.get('/research', research.get);
 router.get('/downloads', downloads.get);
