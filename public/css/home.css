@@ -2,7 +2,6 @@
 .who-we-are-section{
   margin-top: 80px;
 }
-
 .who-content{
     display: flex;
     width: 80%;
@@ -46,9 +45,7 @@
   z-index: 0;
   padding: 20px 0;
   height: 600px;
-
 }
-
 .over{
   position: absolute;
   background-color: rgba(234, 225, 225, 0.7);
@@ -130,12 +127,6 @@ margin: 88px 0;
   height: 135px;
 }
 /* end work-with-section style  */
-
-
-
-
-
-
 
 
 /*start cards section */

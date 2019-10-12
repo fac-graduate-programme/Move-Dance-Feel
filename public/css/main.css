@@ -1,9 +1,7 @@
 .section{
   margin-top: 90px;
 }
-.mn{
-  z-index: -5;
-}
+
 /*general css avalible for all pages*/
 * {
     margin: 0;
@@ -101,9 +99,10 @@ color: #55ACEE;
   color: #636363;
   padding-left: 22px;
 }
-.flex img{
-  width: 28px;
-  height: 24px;
+.flex i{
+  font-size: 30px;
+  color: #B1C9C5;
+  margin: -2px 1px 6px 6px;
 }
 /*end style of footer section*/
 
