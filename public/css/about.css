@@ -89,3 +89,39 @@
         width: 100%;
     }
 }
+
+/* Current Event section  */
+.event_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.event_section h2 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.event_section p {
+  display: inline;
+  font-family: 'Kite one';
+  font-size: 20px;
+}
+
+.event_section ul {
+  list-style: none;
+}
+.event_section li {
+  margin: 8px;
+}
+
+.event_date {
+  font-weight: bold;
+}
+
+.event_link {
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Kite one';
+}
