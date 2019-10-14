@@ -1,0 +1,48 @@
+.research_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.research_section p, .research_intro {
+    font-family: "Kite one";
+    font-size: 20px;
+    margin: 15px auto;
+    max-width: 80%;
+ 
+}
+
+.research_paragraph a {
+    color: #000000;
+}
+.research_paragraph .research_quotee{
+    margin-top: -20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.research_paragraph .research_quote {
+    margin-top: 20px;
+   font-weight: bold;
+}
+
+.research_intro {
+    margin-bottom: 60px; 
+}
+
+.research-title h1 {
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 550; 
+    text-align: center;
+}
+
+.research_subheading{
+    margin: 10px auto; 
+    font-size: 25px;
+    font-family: "Kite one";
+    font-weight: bold;
+}
