@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Quentin";
+    src: url("../assets/Quentin.ttf") format("truetype");
+  }
+
+.about-us-section{
+    margin-top: 80px
+}
+
+.about-us-title{
+    text-align: center
+}
+
+.about-us-h1{
+    font-family: "Quentin";
+    color: #000000;
+    display: block;
+    font-size: 60px;
+    font-weight: 550;
+    line-height: 22px;
+}
+
+.about-us-h3{
+    font-family: "Quentin";
+    margin-top: 80px;
+    color: #000000;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.about-us-content-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    padding: 2vw;
+    max-width: 100%;
+}
+
+
+.left-paragraph-div{
+    width: 50%;
+}
+
+.right-video-div{
+    width: 50%;
+}
+
+.left-paragraph{
+    margin-top: 20px;
+    color: #912F00;
+    font-size: 25px;
+    padding-left: 10vw;
+    width: 80%;
+}
+
+.right-video{
+    width: 760px;
+    height: 480px; 
+} 
+
+.main-paragraph{
+    font-size: 25px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+@media only screen and (max-width:1300px){
+    .about-us-content-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left-paragraph-div{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .left-paragraph{
+        width: 100%;
+    }
+    .right-video-div{
+        width: 80%;
+    }
+    .right-video{
+        width: 100%;
+    }
+}
