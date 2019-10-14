@@ -1,0 +1,15 @@
+<Form onSubmit={this.handelSubmit} style={{ width: '600px' }}>
+  <FormGroup>
+    <Label for="name">Name:</Label>
+    <Input type="text" name="name" onChange={this.handelChange} />
+  </FormGroup>
+  <FormGroup>
+    <Label for="email">Email</Label>
+    <Input type="email" name="email" onChange={this.handelChange} />
+  </FormGroup>
+  <FormGroup>
+    <Label for="message">Message:</Label>
+    <Input type="textarea" name="message" onChange={this.handelChange} />
+  </FormGroup>
+  <Button>submite</Button>
+</Form>
