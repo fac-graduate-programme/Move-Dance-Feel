@@ -8,8 +8,8 @@ const about = require('./about');
 const support = require('./support');
 const research = require('./research');
 const downloads = require('./downloads');
-// const volunteer = require('./volunteer');
-// const volunteerForm = require('./volunteerForm');
+const volunteer = require('./volunteer');
+const volunteerForm = require('./volunteerForm');
 // const bookingForm = require('./bookingForm');
 
 router.get('/', home.get);
@@ -20,8 +20,8 @@ router.get('/support', support.get);
 router.get('/research', research.get);
 router.get('/downloads', downloads.get);
 // router.get('/contact', contact.get);
-// router.get('/volunteer', volunteer.get);
-// router.post('/volunteer-form', volunteerForm.post);
+router.get('/volunteer', volunteer.get);
+router.post('/volunteer-form', volunteerForm.post);
 // router.post('/booking-form', bookingForm.post);
 
 router.use(error.client);
