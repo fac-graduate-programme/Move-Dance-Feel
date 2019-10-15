@@ -9,8 +9,8 @@
 
 .research_section p, .research_intro {
     font-family: "Kite one";
-    font-size: 20px;
-    margin: 15px auto;
+    font-size: 21px;
+    margin: 60px auto;
     max-width: 80%;
  
 }
@@ -20,7 +20,7 @@
 }
 .research_paragraph .research_quotee{
     margin-top: -20px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: right;
 }
 
@@ -33,12 +33,6 @@
     margin-bottom: 60px; 
 }
 
-.research-title h1 {
-    font-size: 50px;
-    margin: 20px;
-    font-weight: 550; 
-    text-align: center;
-}
 
 .research_subheading{
     margin: 10px auto; 
@@ -46,3 +40,5 @@
     font-family: "Kite one";
     font-weight: bold;
 }
+
+/* media query 860 */
