@@ -159,7 +159,7 @@
     color: #898989;
     text-align: -webkit-center;
     font-family: 'Kite One', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     width: 38%;
   }
   /* end carsouel style */
@@ -180,7 +180,7 @@ align-items: center;
 
 .download_paragraph {
     font-family: 'Kite One', sans-serif;
-    font-size: 16px;
+    font-size: 21px;
     width: 30%;
 }
 
