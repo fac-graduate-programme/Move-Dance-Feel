@@ -19,12 +19,10 @@ body {
   text-align: center;
 }
 .heading-title h1 {
-  color: #912f00;
   display: block;
-  font-size: 28px;
-  font-weight: 700;
   line-height: 22px;
   font-size: xx-large;
+  font-size: 50px;
 }
 .heading-title h1::after {
   background: #b1c9c5 none repeat scroll 0 0;
@@ -90,12 +88,15 @@ body {
   margin: 17px 46px;
 }
 .footer__container-right {
-  margin-right: 6%;
-  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 121px;
+  padding-right: 5%;
+
 }
 .flex {
   display: flex;
-  margin-bottom: 20px;
 }
 .flex p {
   color: #636363;
@@ -270,15 +271,20 @@ body {
 /* navbar style */
 
 .navbar {
+  position: fixed;
+  z-index: 5;
+  top: 0;
   width: 100vw;
   height: 85px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 25px;
+  background-color: #fff;
 }
 
 .navbar-logo {
-  height: 100%;
+  width: 200px;
   margin: auto 0;
 }
 
@@ -287,6 +293,7 @@ body {
   margin: 0 15px;
   color: black;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .navbar-link:hover {
