@@ -5,8 +5,9 @@
 }
 
 .volunteer-form-section{
+    font-family: 'Kite one';
     padding: 10vw;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .input-title{
@@ -15,6 +16,7 @@
 
 .input-row1{
     height: 42px;
+    width: 320px;
 }
 
 .input-help{
