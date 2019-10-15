@@ -22,12 +22,12 @@
         <input type="text" class="booking-inputs" name="experince" id="experince" placeholder="Enter your Experince ..."
           required>
         <label for="message">Message <span>*</span></label>
-        <input type="textarea" class="booking-inputs contactUs--formMessage" name="message" id="message"
-          placeholder="Enter your Message ..." required>
+        <textarea id="message" class="booking-inputs contactUs--formMessage" type="text" name="message"
+          placeholder="Enter your Message ..." required="" spellcheck="false"></textarea>
       </div>
       <div class="booking--container-right">
         <label for="int">Interested in <span>*</span></label>
-        <div>
+        <div class="check-button">
           <input type="checkbox" class="booking-inputs" name="int" value="Talk"> Talk <br>
           <input type="checkbox" class="booking-inputs" name="int" value="Session"> Session<br>
           <input type="checkbox" class="booking-inputs" name="int" value="Other" checked> Other<br><br>
