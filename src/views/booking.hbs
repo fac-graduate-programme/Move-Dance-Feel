@@ -1,15 +1,40 @@
-<Form onSubmit={this.handelSubmit} style={{ width: '600px' }}>
-  <FormGroup>
-    <Label for="name">Name:</Label>
-    <Input type="text" name="name" onChange={this.handelChange} />
-  </FormGroup>
-  <FormGroup>
-    <Label for="email">Email</Label>
-    <Input type="email" name="email" onChange={this.handelChange} />
-  </FormGroup>
-  <FormGroup>
-    <Label for="message">Message:</Label>
-    <Input type="textarea" name="message" onChange={this.handelChange} />
-  </FormGroup>
-  <Button>submite</Button>
-</Form>
+{{!-- booking form section --}}
+
+<section class="section booking" id="booking">
+  <p class="pargraph-left">We have done talks and sessions at various locations. If you are interested fillow out the
+    following so we can connect about giving a taster session or talk.</p>
+  <form class="booking--contactUs-form">
+    <div class="booking--container">
+      <div class="booking--container-left">
+        <div class="booking--container-row">
+          <div class="booking--container-filed">
+            <label for="name">Name <span>*</span></label>
+            <input type="text" class="footer-inputs" name="name" id="name" placeholder="Enter your Full Name ..."
+              required>
+          </div>
+          <div class="booking--container-filed">
+            <label for="email">Email Address <span>*</span></Label>
+            <input class="footer-inputs" type="email" name="email" id="email" placeholder="Enter your Email ..."
+              required>
+          </div>
+        </div>
+        <label for="experince">Previous Experience <span>*</span></label>
+        <input type="text" class="footer-inputs" name="experince" id="experince" placeholder="Enter your Experince ..."
+          required>
+        <label for="message">Message <span>*</span></label>
+        <input type="textarea" class="footer-inputs contactUs--formMessage" name="message" id="message"
+          placeholder="Enter your Message ..." required>
+      </div>
+      <div class="booking--container-right">
+        <label for="int">Interested in <span>*</span></label>
+        <div>
+          <input type="checkbox" class="booking-inputs" name="int" value="Talk"> Talk <br>
+          <input type="checkbox" class="booking-inputs" name="int" value="Session"> Session<br>
+          <input type="checkbox" class="booking-inputs" name="int" value="Other" checked> Other<br><br>
+        </div>
+      </div>
+    </div>
+    <button class="booking--contactUs-formSubmit" type="submit">Send</button>
+  </form>
+</section>
+{{!-- booking form section --}}

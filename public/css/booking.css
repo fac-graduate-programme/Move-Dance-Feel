@@ -1,0 +1,21 @@
+.booking p{
+  text-align: -webkit-left;
+  padding: 68px;
+  font-size: 30px;
+  color: #908989;
+}
+.booking--container{
+  display: flex;
+}
+.booking--container-left{
+  display: grid;
+}
+.booking--container-row{
+  display: flex;
+}
+.booking--container-filed{
+  display: grid;
+}
+.booking--container-right{
+  display: grid;
+}
