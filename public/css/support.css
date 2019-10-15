@@ -37,8 +37,7 @@
 
 .support_timeline {
     position: relative;
-  width: 80%;
-  max-width: 950px;
+  width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 50px 1fr;
@@ -47,7 +46,6 @@
 .timeline_content {
     padding: 1em;
   width: 35vw;
-  max-width: 400px;
   justify-self: center;
   align-self: center;
   font-size: 21px;

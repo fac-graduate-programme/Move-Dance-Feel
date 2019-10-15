@@ -18,24 +18,21 @@
 }
 .events-content {
   display: flex;
-  width: 80%;
-  margin: auto;
+  margin: 2vw;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .events-details,
 .center-events-details {
   font-family: 'Kite One', sans-serif;
   margin-bottom: 0px;
   margin-top: 2%;
-}
-.events-details p {
-  width: 436px;
+  width: 500px;
 }
 
 .events-details p,
 .center-events-details p {
-  padding: 10px;
+  padding-top: 10px;
   font-size: 21px;
   font-family: 'Kite One', sans-serif;
   color: #3a3838;
@@ -65,7 +62,10 @@
   margin-top: 60px;
 }
 .session-content-text {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
   max-width: 700px;
   padding-top: 1vh;
 }
@@ -77,10 +77,10 @@
 }
 
 .right-video-div {
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: 10px auto;
   min-height: 350px;
 }
@@ -89,9 +89,13 @@
 }
 
 #left-video-div .session-content-text{
-  padding-left: 60px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; 
 }
 .right-video {
+  width: 50%;
   min-width: 500px;
   min-height: 400px
 }

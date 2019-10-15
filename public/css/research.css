@@ -11,8 +11,12 @@
     font-family: "Kite one";
     font-size: 21px;
     margin: 60px auto;
-    max-width: 80%;
+    max-width: 75%;
  
+}
+
+.research_intro {
+    margin: 160px auto;
 }
 
 .research_paragraph a {
@@ -29,9 +33,6 @@
    font-weight: bold;
 }
 
-.research_intro {
-    margin-bottom: 60px; 
-}
 
 
 .research_subheading{
