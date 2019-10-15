@@ -4,7 +4,7 @@
   }
 
 .about-us-section{
-    margin-top: 80px
+    margin-top: 160px
 }
 
 .about-us-title{
@@ -12,21 +12,18 @@
 }
 
 .about-us-h1{
-    font-family: "Quentin";
     color: #000000;
     display: block;
-    font-size: 60px;
-    font-weight: 550;
+    font-size: 50px;
     line-height: 22px;
 }
 
 .about-us-h3{
-    font-family: "Quentin";
     margin-top: 80px;
     color: #000000;
     display: block;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 300;
     padding-left: 5vw;
     padding-right: 5vw;
 }

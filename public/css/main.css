@@ -9,6 +9,7 @@
   box-sizing: border-box;
   direction: ltr;
   font-size: 100%;
+  font-family: 'Kite One', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -101,6 +102,8 @@ body {
 .flex p {
   color: #636363;
   padding-left: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 .flex i {
   font-size: 30px;
