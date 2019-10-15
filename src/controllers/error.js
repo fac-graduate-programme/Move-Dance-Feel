@@ -4,7 +4,7 @@ exports.client = (req, res) => {
     errorMessage: 'Page Not Found',
   });
 };
-exports.server = (err, req, res) => {
+exports.server = (err, req, res, next) => {
   res.render('error', {
     status: 500,
     errorMessage: err.message,
