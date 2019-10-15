@@ -1,14 +1,17 @@
-.section{
+.section {
   margin-top: 90px;
 }
 
 /*general css avalible for all pages*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    direction: ltr;
-    font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: ltr;
+  font-size: 100%;
+}
+body {
+  overflow-x: hidden;
 }
 /* start heading style */
 .heading-title {
@@ -16,7 +19,7 @@
   text-align: center;
 }
 .heading-title h1 {
-  color: #912F00;
+  color: #912f00;
   display: block;
   font-size: 28px;
   font-weight: 700;
@@ -24,8 +27,8 @@
   font-size: xx-large;
 }
 .heading-title h1::after {
-  background: #B1C9C5 none repeat scroll 0 0;
-  content: " ";
+  background: #b1c9c5 none repeat scroll 0 0;
+  content: ' ';
   display: inline-block;
   height: 2px;
   width: 70px;
@@ -37,15 +40,14 @@
 /* end heading style */
 
 @font-face {
-  font-family: "Quentin";
-  src: url("../assets/Quentin.ttf") format("truetype");
+  font-family: 'Quentin';
+  src: url('../assets/Quentin.ttf') format('truetype');
 }
 
-.subheading_font{
-  font-family: "Quentin";
+.subheading_font {
+  font-family: 'Quentin';
   font-size: 30px;
-  color: #912F00;
-  
+  color: #912f00;
 }
 
 /*start style of footer section*/
@@ -55,57 +57,56 @@
   height: 121px;
   bottom: 0;
 }
-.footer__container{
+.footer__container {
   display: flex;
   justify-content: space-between;
 }
-.footer__container-left{
+.footer__container-left {
   font-size: 14px;
-} 
+}
 
 .footer__container a {
   padding: 13px;
   text-decoration: none;
   cursor: pointer;
 }
-.twitter-icon{
-color: #55ACEE;
+.twitter-icon {
+  color: #55acee;
 }
-.facebook-icon{
-  color:  #8B9DC3;
+.facebook-icon {
+  color: #8b9dc3;
 }
-.instgram-icon{
-  color:#d81154;
-} 
+.instgram-icon {
+  color: #d81154;
+}
 
 .footer__container ul {
   font-size: 30px;
   margin: 26px 46px;
   margin-bottom: 12px;
 }
-.footer__container span{
+.footer__container span {
   color: #434546;
   margin: 17px 46px;
 }
-.footer__container-right{
+.footer__container-right {
   margin-right: 6%;
   margin-top: 27px;
-} 
-.flex{
+}
+.flex {
   display: flex;
   margin-bottom: 20px;
-  }
-.flex p{
+}
+.flex p {
   color: #636363;
   padding-left: 22px;
 }
-.flex i{
+.flex i {
   font-size: 30px;
-  color: #B1C9C5;
+  color: #b1c9c5;
   margin: -2px 1px 6px 6px;
 }
 /*end style of footer section*/
-
 
 /* start carausel style */
 
@@ -135,7 +136,7 @@ color: #55ACEE;
 
 /* SLIDES */
 
-.CSSgal .slider>* {
+.CSSgal .slider > * {
   font-size: 1rem;
   display: inline-block;
   white-space: normal;
@@ -158,7 +159,7 @@ color: #55ACEE;
   cursor: pointer;
 }
 
-.CSSgal .bullets>a {
+.CSSgal .bullets > a {
   display: inline-block;
   line-height: 30px;
   text-decoration: none;
@@ -167,29 +168,24 @@ color: #55ACEE;
   transition: 0.3s;
 }
 
-
 /* NAVIGATION BUTTONS */
 
 /* ALL: */
 
-
-
-#s1:target~.slider {
-  transform: translateX( 0%);
-  -webkit-transform: translateX( 0%);
+#s1:target ~ .slider {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
 }
 
-#s2:target~.slider {
+#s2:target ~ .slider {
   transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
 }
 
-#s3:target~.slider {
+#s3:target ~ .slider {
   transform: translateX(-200%);
   -webkit-transform: translateX(-200%);
 }
-
-
 
 .CSSgal {
   color: #fff;
@@ -210,7 +206,6 @@ color: #55ACEE;
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
 }
-
 
 .prev,
 .next {
@@ -239,10 +234,9 @@ color: #55ACEE;
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-  color:#B1C9C5 ;
-
+  color: #b1c9c5;
 }
-.slid-arrow{
+.slid-arrow {
   float: left;
 }
 
@@ -256,15 +250,15 @@ color: #55ACEE;
 .active,
 .demo:hover {
   opacity: 1;
-  background: #B1C9C5 ;
+  background: #b1c9c5;
   width: 20px;
   height: 20px;
 }
-.slider-text{
+.slider-text {
   text-align: -webkit-center;
   margin: 70px 0px 0px 0px;
 }
-.slider-pargraph{
+.slider-pargraph {
   color: #898989;
   text-align: -webkit-center;
   font-family: 'Kite One', sans-serif;
@@ -272,3 +266,29 @@ color: #55ACEE;
   width: 38%;
 }
 /* end carsouel style */
+
+/* navbar style */
+
+.navbar {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.navbar-logo {
+  height: 100%;
+  margin: auto 0;
+}
+
+.navbar-link {
+  font-family: 'Kite One';
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #912f00;
+}
