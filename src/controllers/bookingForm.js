@@ -1,11 +1,12 @@
 const nodemailer = require('nodemailer');
 // require("env2")("../");
 const path = require('path');
-require('env2')('./.env')
+require('env2')('./.env');
 
 const password = process.env.pass;
 const fs = require('fs');
 const MUSTACHE = require('mustache');
+
 exports.get = (req, res) => {
   res.render('booking', {
     js: ['domBoking'],
@@ -35,7 +36,9 @@ exports.post = (async (req, res) => {
       'utf-8',
     );
     // eslint-disable-next-line camelcase
-    const html_email = MUSTACHE.render(template, { username: name, useremail: email, userexperince: experince, msg: message, userint: int });
+    const html_email = MUSTACHE.render(template, {
+      username: name, useremail: email, userexperince: experince, msg: message, userint: int,
+    });
 
     const info = await transporter.sendMail({
       from: 'MDF user',

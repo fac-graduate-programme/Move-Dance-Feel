@@ -6,7 +6,7 @@ exports.get = async (req, res, next) => {
     res.render('about', {
       js: ['domAbout'],
       css: 'about',
-      data: data
+      data,
     });
   } catch (e) {
     next(e);
