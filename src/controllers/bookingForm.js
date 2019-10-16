@@ -1,5 +1,8 @@
 const nodemailer = require('nodemailer');
-require("env2")("/home/nareman/Desktop/mdf/Move-Dance-Feel/.env");
+// require("env2")("../");
+const path = require('path');
+require('env2')('./.env')
+
 const password = process.env.pass;
 const fs = require('fs');
 const MUSTACHE = require('mustache');
@@ -9,6 +12,7 @@ exports.get = (req, res) => {
     css: 'booking',
   });
 };
+
 exports.post = (async (req, res) => {
   const {
     name, email, experince, message, int,
@@ -24,9 +28,10 @@ exports.post = (async (req, res) => {
         pass: password, // pass of emily
       },
     });
+    const filePath = path.join(__dirname, '..', '..', 'public', 'html', 'book.html');
 
     const template = fs.readFileSync(
-      '/home/nareman/Desktop/mdf/Move-Dance-Feel/public/html/book.html',
+      filePath,
       'utf-8',
     );
     // eslint-disable-next-line camelcase
