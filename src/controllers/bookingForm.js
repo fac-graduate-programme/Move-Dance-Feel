@@ -1,5 +1,4 @@
 const nodemailer = require('nodemailer');
-// require("env2")("../");
 const path = require('path');
 require('env2')('./.env')
 
@@ -44,5 +43,5 @@ exports.post = (async (req, res) => {
       html: html_email,
     });
   }
-  await main().catch((e) => console.log(1111111, e));
+  await main().catch(res.status(200).send({ msg: 'done' }));
 });
