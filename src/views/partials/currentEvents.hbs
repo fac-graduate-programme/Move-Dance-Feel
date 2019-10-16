@@ -1,0 +1,13 @@
+<section class="event_section">
+
+    <h2 class="subheading_font">Current Events</h2>
+    <ul>
+        {{#each data}} <li>
+            <p class="event_date">{{Date}}</p>
+            <p class="event_details">{{Details}}</p>
+            <a class="event_link" href={{url}}>{{link}}</a>
+        </li>
+        {{/each}}
+    </ul>
+
+</section>

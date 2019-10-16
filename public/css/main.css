@@ -44,10 +44,10 @@ body {
   src: url('../assets/Quentin.ttf') format('truetype');
 }
 
-.subheading_font {
-  font-family: 'Quentin';
-  font-size: 30px;
-  color: #912f00;
+.subheading_font{
+  font-family: "Quentin";
+  font-weight: 550;
+  
 }
 
 /*start style of footer section*/
