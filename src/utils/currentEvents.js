@@ -24,6 +24,7 @@ const getCurrentEvents = () => new Promise((resolve, reject) => {
       },
       (err) => {
         if (err) {
+          // eslint-disable-next-line no-console
           console.error(err);
           reject(err);
         }

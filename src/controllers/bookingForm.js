@@ -14,13 +14,14 @@ exports.get = (req, res) => {
   });
 };
 
-exports.post = (async (req, res) => {
+// eslint-disable-next-line no-unused-vars
+exports.post = async (req, res) => {
   const {
     name, email, experince, message, int,
   } = req.body;
-  const data = {
-    name, email, experince, message, int,
-  };
+  // const data = {
+  //   name, email, experince, message, int,
+  // };
   async function main() {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -29,23 +30,32 @@ exports.post = (async (req, res) => {
         pass: password, // pass of emily
       },
     });
-    const filePath = path.join(__dirname, '..', '..', 'public', 'html', 'book.html');
-
-    const template = fs.readFileSync(
-      filePath,
-      'utf-8',
+    const filePath = path.join(
+      __dirname,
+      '..',
+      '..',
+      'public',
+      'html',
+      'book.html',
     );
+
+    const template = fs.readFileSync(filePath, 'utf-8');
     // eslint-disable-next-line camelcase
     const html_email = MUSTACHE.render(template, {
-      username: name, useremail: email, userexperince: experince, msg: message, userint: int,
+      username: name,
+      useremail: email,
+      userexperince: experince,
+      msg: message,
+      userint: int,
     });
 
-    const info = await transporter.sendMail({
+    await transporter.sendMail({
       from: 'MDF user',
       to: 'naremanmohhilles@gmail.com', // emliy email
       subject: 'move dance booking',
       html: html_email,
     });
   }
+  // eslint-disable-next-line no-console
   await main().catch((e) => console.log(1111111, e));
-});
+};
