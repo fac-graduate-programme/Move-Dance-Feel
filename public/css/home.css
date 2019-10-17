@@ -82,6 +82,8 @@ header-video {
 
 /* start testemonial style */
 .testemonial {
+  display: flex;
+  flex-direction: column;
   background: url('../assets/images/testemonial.png') no-repeat center / cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,23 +109,15 @@ header-video {
 }
 .testemonial-desc {
   font-size: 19px;
-  width: 575px;
   text-align: -webkit-center;
-  margin-left: 378px;
-}
-.slider-home {
-  margin-top: -90px;
 }
 .test-card {
   text-align: center;
   margin: auto;
-  margin-top: 17%;
 }
 .test-item-container {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: -3%;
-  margin-top: -9%;
+  justify-content: space-evenly; 
   width: 100%;
 }
 .item {
