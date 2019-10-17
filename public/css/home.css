@@ -89,9 +89,6 @@ header-video {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
   padding: 20px 0;
   height: 600px;
 }
@@ -174,43 +171,46 @@ header-video {
 /*start cards section */
 .cards {
   width: 90%;
-  margin-left: 2%;
+  margin: auto;
   display: flex;
-}
-
-.cards .cards-info {
-  text-align: left;
-  margin-bottom: 10px;
-
-  position: relative;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  width: 40%;
+  justify-content: space-evenly;
   height: 862px;
-  padding: 20px 0;
-  margin-left: 7.5%;
 }
-.cards-info img {
-  width: 520px;
-  height: 400px;
+
+.cards-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  width: 40%;
+  padding: 20px 0;
+  height: 350px;
+}
+
+.cards-info-img1 {
+ background-image: url("../assets/images/1.png");
+ background-size: auto;
+ background-repeat: no-repeat;
+
+
+}
+.cards-info-img2{
+  background-image: url("../assets/images/2.jpg");
+  background-size: auto 100%;
+  background-position: center;
+ background-repeat: no-repeat;
+ 
 }
 .overlay {
-  position: absolute;
   background-color: rgba(234, 225, 225, 0.7);
-  top: 163px;
-  bottom: 0;
-  left: 68px;
-  height: 11%;
-  width: 76%;
-  z-index: 0;
 }
 .overlay p {
   color: #912f00;
   font-family: 'Kite One', sans-serif;
   font-size: 16px;
   text-align: -webkit-center;
-  margin-top: 21px;
+  margin: 20px;
 }
 /*end cards section */
 
@@ -235,8 +235,7 @@ header-video {
   font-size: 19px;
   width: 595px;
   text-align: -webkit-left;
-  margin-left: 378px;
-  margin-top: 10px;
+  margin: 10px auto;
   color: #f7f0f0;
   font-family: 'Kite One', sans-serif;
 }
