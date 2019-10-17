@@ -16,7 +16,7 @@ exports.get = (req, res) => {
 
 exports.post = (async (req, res) => {
     const { name, email, help, experience, message } = req.body;
-    console.log(req.body)
+
     const formData = { name, email, help, experience, message };
 
     async function main() {
@@ -43,6 +43,6 @@ exports.post = (async (req, res) => {
         });
     }
     await main().catch((error) => 
-        alert('An error has occurred'));
+        console.log(1010101, error));
     
 })

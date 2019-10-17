@@ -2,10 +2,11 @@ const volunteerForm = document.querySelector('.volunteer--contact-form');
 
 volunteerForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    const volunteerData = new VolunteerData(volunteerForm);
+    const formData = new FormData(volunteerForm);
     const data = {};
-    volunteerData.forEach((value, key) => {
+    formData.forEach((value, key) => {
         data[key] = value;
+        console.log(data);
     });
 
     fetch('/volunteer-form', {

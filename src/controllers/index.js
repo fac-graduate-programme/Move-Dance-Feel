@@ -20,7 +20,7 @@ router.get('/support', support.get);
 router.get('/research', research.get);
 router.get('/downloads', downloads.get);
 // router.get('/contact', contact.get);
-router.get('/volunteer', volunteer.get);
+router.get('/volunteer-form', volunteer.get);
 router.post('/volunteer-form', volunteerForm.post);
 router.post('/booking-form', bookingForm.post);
 router.get('/booking-form', bookingForm.get);
