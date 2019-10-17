@@ -6,7 +6,8 @@ exports.get = async (req, res, next) => {
     res.render('about', {
       js: ['domAbout'],
       css: 'about',
-      data: data
+      data: data,
+      title: 'Move Dance Feel UK: About us',
     });
   } catch (e) {
     next(e);
