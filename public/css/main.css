@@ -1,5 +1,5 @@
 .section {
-  margin-top: 90px;
+  margin-top: 160px;
 }
 
 /*general css avalible for all pages*/
@@ -9,6 +9,7 @@
   box-sizing: border-box;
   direction: ltr;
   font-size: 100%;
+  font-family: 'Kite One', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -19,12 +20,10 @@ body {
   text-align: center;
 }
 .heading-title h1 {
-  color: #912f00;
   display: block;
-  font-size: 28px;
-  font-weight: 700;
   line-height: 22px;
   font-size: xx-large;
+  font-size: 50px;
 }
 .heading-title h1::after {
   background: #b1c9c5 none repeat scroll 0 0;
@@ -54,7 +53,7 @@ body {
 
 .footer {
   background-color: #191919;
-  height: 121px;
+  height: 135px;
   bottom: 0;
 }
 .footer__container {
@@ -83,23 +82,28 @@ body {
 .footer__container ul {
   font-size: 30px;
   margin: 26px 46px;
-  margin-bottom: 12px;
+  margin-bottom: 35px;
 }
 .footer__container span {
   color: #434546;
   margin: 17px 46px;
 }
 .footer__container-right {
-  margin-right: 6%;
-  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 121px;
+  padding-right: 5%;
+
 }
 .flex {
   display: flex;
-  margin-bottom: 20px;
 }
 .flex p {
   color: #636363;
   padding-left: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 .flex i {
   font-size: 30px;
@@ -262,7 +266,7 @@ body {
   color: #898989;
   text-align: -webkit-center;
   font-family: 'Kite One', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   width: 38%;
 }
 /* end carsouel style */
@@ -270,15 +274,20 @@ body {
 /* navbar style */
 
 .navbar {
+  position: fixed;
+  z-index: 5;
+  top: 0;
   width: 100vw;
   height: 85px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 25px;
+  background-color: #fff;
 }
 
 .navbar-logo {
-  height: 100%;
+  width: 200px;
   margin: auto 0;
 }
 
@@ -287,6 +296,7 @@ body {
   margin: 0 15px;
   color: black;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .navbar-link:hover {
