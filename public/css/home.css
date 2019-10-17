@@ -54,7 +54,7 @@ header-video {
 .who-content {
   display: flex;
   width: 80%;
-  margin-left: 10%;
+  margin: auto;
 }
 .who-content-div {
   width: 50%;
@@ -87,10 +87,9 @@ header-video {
   background: url('../assets/images/testemonial.png') no-repeat center / cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   position: relative;
-  padding: 20px 0;
-  height: 600px;
+  padding: 40px 0;
 }
 .over {
   position: absolute;
@@ -99,10 +98,14 @@ header-video {
   bottom: 0;
   height: 100%;
   width: 100%;
-  z-index: -5;
+  z-index: 0;
 }
 .testemonial .heading-title h1::after {
   background-color: #143a48;
+}
+
+.testemonial .heading-title, .testemonial-desc{
+  z-index: 2;
 }
 .testemonial-desc {
   font-size: 19px;
@@ -124,9 +127,8 @@ header-video {
   background-color: #b1c9c5;
   padding: 20px 10px;
   color: #fff;
-  height: 300px;
   display: block;
-  height: 315px;
+  height: 400px;
   width: 311px;
   /* box-shadow:  */
 }
@@ -144,7 +146,7 @@ header-video {
 .test-info-desc {
   margin-top: 8%;
   width: 216px;
-  margin-left: 13%;
+  margin: auto;
 }
 /* end testemonial style */
 
