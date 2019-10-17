@@ -1,2 +1,48 @@
-
-    {{> volunteerForm}}
+{{! Start Volunteer-Form Section}}
+<div class="volunteer-form-section">
+    <p>Currently we have enough artists volunteering to sustain our current programs. We need help in other areas of our
+        organisations. We need help in keeping all this going. Be it helping publisise an event or the organisation
+        itself. Apply for funding grants or etc etc.</p><br><br>
+    <form class='volunteer--contact-form'>
+        <div class="first-row">
+            <label class='input-title' for="name">Name<span>*</span> <br><br>
+                <input class="input-row1" type="text" form="volunteer" id="name" name="name"
+                    placeholder="Enter Name Here..." pattern="^[a-zA-Z]+$" required>
+            </label>
+            <label class="input-title" for="email">Email Address<span>*</span> <br><br>
+                <input class="input-row1" type="email" form="volunteer" id="email" name="email"
+                    placeholder="example@example.co.uk">
+            </label>
+            <label class="input-title" for="help">I can help with <br><br>
+                <div class="input-checkbox">
+                    <label class="need-list" for="need1">Fund Raising
+                        <input class="input-button" type="checkbox" form="volunteer" id='fund-raising'
+                            value="fund-raising" name="help">
+                    </label><br><br>
+                    <label class="need-list" for="need2">Event Organiser
+                        <input class="input-button" type="checkbox" form="volunteer" id="event-organiser"
+                            value="event-organiser" name="help">
+                    </label><br><br>
+                    <label class="need-list" for="need3">Content Producer
+                        <input class="input-button" type="checkbox" form="volunteer" id="conent-producer"
+                            value="content-producer" name="help">
+                    </label>
+                </div>
+            </label>
+        </div>
+        <label class="input-title" for="experience">Previous Experience<span>*</span><br><br>
+            <textarea class="input-experience" type="text" form="volunteer" id="experience"
+                name="experience" id=""></textarea>
+        </label>
+        <br><br>
+        <label class="input-title" for="message">Message<span>*</span><br><br>
+            <textarea class="input-message" type="text" form="volunteer" id="message" name="message"
+                cols="30" rows="10" maxlength="250"></textarea>
+        </label>
+        <br><br>
+        <div class="button" >
+           <input class="send-button" type="submit" value="Send">  
+        </div>
+        
+    </form>
+</div>

@@ -10,7 +10,7 @@ const research = require('./research');
 const downloads = require('./downloads');
 const volunteer = require('./volunteer');
 const volunteerForm = require('./volunteerForm');
-// const bookingForm = require('./bookingForm');
+const bookingForm = require('./bookingForm');
 
 router.get('/', home.get);
 router.get('/about', about.get);
@@ -22,8 +22,9 @@ router.get('/downloads', downloads.get);
 // router.get('/contact', contact.get);
 router.get('/volunteer', volunteer.get);
 router.post('/volunteer-form', volunteerForm.post);
-// router.post('/booking-form', bookingForm.post);
-
+router.post('/booking-form', bookingForm.post);
+router.get('/booking-form', bookingForm.get);
+// router.post('/contact-us', postContactUs);
 router.use(error.client);
 router.use(error.server);
 

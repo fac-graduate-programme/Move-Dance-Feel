@@ -39,11 +39,15 @@
     height: 42px;
 }
 
-#input-message{
+.input-message{
     padding: 10px;
     width: 729px;
     height: 300px;
 } 
+
+span {
+    color: red;
+}
 
 .send-button{
     background: #719CAB;
