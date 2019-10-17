@@ -33,7 +33,7 @@
 .events-details p,
 .center-events-details p {
   padding-top: 10px;
-  font-size: 21px;
+  font-size: 16px;
   font-family: 'Kite One', sans-serif;
   color: #3a3838;
 }
@@ -70,7 +70,7 @@
   padding-top: 1vh;
 }
 .session-content-pargraph {
-  font-size: 21px;
+  font-size: 16px;
   color: #6f6d6d;
   padding: 10px;
   width: 90%;

@@ -9,7 +9,7 @@
 
 .research_section p, .research_intro {
     font-family: "Kite one";
-    font-size: 21px;
+    font-size: 16px;
     margin: 60px auto;
     max-width: 75%;
  
@@ -24,13 +24,15 @@
 }
 .research_paragraph .research_quotee{
     margin-top: -20px;
-    font-size: 18px;
+    font-size: 14px;
     text-align: right;
 }
 
 .research_paragraph .research_quote {
     margin-top: 20px;
    font-weight: bold;
+   color: #999A9E;
+   font-size: 18px;
 }
 
 
