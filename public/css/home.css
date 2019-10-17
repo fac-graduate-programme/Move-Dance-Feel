@@ -130,7 +130,7 @@ header-video {
   display: block;
   height: 400px;
   width: 311px;
-  /* box-shadow:  */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .testemonial .test-info .test-info-title {
@@ -152,14 +152,14 @@ header-video {
 
 /* start work-with-section style */
 .work-with-section {
-  margin: 88px 0;
+  margin: 160px 0;
 }
 .work-with-content-div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 80%;
-  margin: auto;
+  margin: 60px auto;
 }
 .work-with-content-div img {
   width: 20vw;
@@ -173,10 +173,9 @@ header-video {
 /*start cards section */
 .cards {
   width: 90%;
-  margin: auto;
+  margin: 180px auto;
   display: flex;
   justify-content: space-evenly;
-  height: 862px;
 }
 
 .cards-info {
@@ -185,14 +184,16 @@ header-video {
   align-items: center;
   margin-bottom: 10px;
   position: relative;
-  width: 40%;
+  width: 25%;
+  min-width: 340px;
   padding: 20px 0;
   height: 350px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .cards-info-img1 {
  background-image: url("../assets/images/1.png");
- background-size: auto;
+ background-size: cover;
  background-repeat: no-repeat;
 
 
@@ -222,7 +223,6 @@ header-video {
   text-align: center;
   height: 249px;
   padding-top: 64px;
-  margin-top: -312px;
 }
 .partener h2 {
   margin-top: -46px;
