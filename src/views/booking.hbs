@@ -1,0 +1,40 @@
+{{!-- booking form section --}}
+
+<section class="section booking" id="booking">
+  <p class="pargraph-left">We have done talks and sessions at various locations. If you are interested fillow out the
+    following so we can connect about giving a taster session or talk.</p>
+  <form class="booking--contactUs-form">
+    <div class="booking--container">
+      <div class="booking--container-left">
+        <div class="booking--container-row">
+          <div class="booking--container-filed">
+            <label for="name">Name <span>*</span></label>
+            <input type="text" class="booking-inputs" name="name" id="name" placeholder="Enter your Full Name ..."
+              required>
+          </div>
+          <div class="booking--container-filed">
+            <label for="email">Email Address <span>*</span></Label>
+            <input class="booking-inputs" type="email" name="email" id="email" placeholder="Enter your Email ..."
+              required>
+          </div>
+        </div>
+        <label for="experince">Previous Experience <span>*</span></label>
+        <input type="text" class="booking-inputs" name="experince" id="experince" placeholder="Enter your Experince ..."
+          required>
+        <label for="message">Message <span>*</span></label>
+        <textarea id="message" class="booking-inputs contactUs--formMessage" type="text" name="message"
+          placeholder="Enter your Message ..." required="" spellcheck="false"></textarea>
+      </div>
+      <div class="booking--container-right">
+        <label for="int">Interested in <span>*</span></label>
+        <div class="check-button">
+          <input type="checkbox" class="booking-inputs" name="int" value="Talk"> Talk <br>
+          <input type="checkbox" class="booking-inputs" name="int" value="Session"> Session<br>
+          <input type="checkbox" class="booking-inputs" name="int" value="Other" checked> Other<br><br>
+        </div>
+      </div>
+    </div>
+    <button class="booking--contactUs-formSubmit" type="submit">Send</button>
+  </form>
+</section>
+{{!-- booking form section --}}

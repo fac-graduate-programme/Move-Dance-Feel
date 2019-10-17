@@ -53,16 +53,12 @@
     <div class="download">
         <p class="download_paragraph">Know someone who would benefit from coming to a session? Send them this PDF or
             print it out for them </p>
-        <a href="/assets/MDF_Evaluation_Report.pdf" class="download_button" download>
+        <a href="/assets/MDF-Leaflet.pdf" class="download_button" download>
             Download
         </a>
     </div>
     <div class="pdf_viewer">
-        {{!-- chrome blocks pdfs being loaded directly in an iframe depending on some security settings so this is a work around using google doc view --}}
-        <iframe
-            src="http://docs.google.com/gview?url=http://www.lahf.org.uk/sites/default/files/MDF%20Evaluation%20Report%20%28April%202019%29%20pdf-compressed.pdf&embedded=true"
-            frameborder="0"></iframe>
-
+       <a href="/assets/MDF-Leaflet.pdf" target="_blank"><img src="/assets/images/leaflet-preview.png" alt="leaflet preview"></a>
     </div>
 </section>
 {{!-- end download section --}}
