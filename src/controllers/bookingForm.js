@@ -61,13 +61,7 @@ exports.post = async (req, res) => {
       };
     });
   }
-<<<<<<< HEAD
   await main().catch(
     (e) => console.log(e)
   );
-});
-=======
-  // eslint-disable-next-line no-console
-  await main().catch((e) => console.log(1111111, e));
 };
->>>>>>> 521630411a3612c1f011bc2205492cde95d1e4fe
