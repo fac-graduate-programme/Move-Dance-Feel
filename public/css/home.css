@@ -54,7 +54,7 @@ header-video {
 .who-content {
   display: flex;
   width: 80%;
-  margin-left: 10%;
+  margin: auto;
 }
 .who-content-div {
   width: 50%;
@@ -82,16 +82,14 @@ header-video {
 
 /* start testemonial style */
 .testemonial {
+  display: flex;
+  flex-direction: column;
   background: url('../assets/images/testemonial.png') no-repeat center / cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   position: relative;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  padding: 20px 0;
-  height: 600px;
+  padding: 40px 0;
 }
 .over {
   position: absolute;
@@ -100,47 +98,45 @@ header-video {
   bottom: 0;
   height: 100%;
   width: 100%;
-  z-index: -5;
+  z-index: 0;
 }
 .testemonial .heading-title h1::after {
   background-color: #143a48;
 }
-.testemonial-desc {
-  font-size: 18px;
-  width: 575px;
-  text-align: -webkit-center;
-  margin-left: 378px;
+
+.testemonial .heading-title, .testemonial-desc{
+  z-index: 2;
 }
-.slider-home {
-  margin-top: -90px;
+.testemonial-desc {
+  font-size: 19px;
+  text-align: -webkit-center;
 }
 .test-card {
   text-align: center;
-  margin-left: 16%;
-  margin-top: 17%;
+  margin: auto;
 }
 .test-item-container {
   display: flex;
-  margin-left: -3%;
-  margin-top: -9%;
+  justify-content: space-evenly; 
+  width: 100%;
 }
 .item {
   margin-right: 10px;
 }
 .testemonial .test-info {
-  background-color: #719cab;
+  background-color: #b1c9c5;
   padding: 20px 10px;
   color: #fff;
-  height: 300px;
   display: block;
-  height: 300px;
+  height: 400px;
   width: 311px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .testemonial .test-info .test-info-title {
   font-size: 20px;
   margin-bottom: 10px;
-  margin-top: 26px;
+  margin-top: 15px;
 }
 .testemonial .test-info .test-info-span {
   color: #2c2f36;
@@ -148,68 +144,76 @@ header-video {
   margin-bottom: 10px;
 }
 .test-info-desc {
-  margin-top: 13%;
+  margin-top: 8%;
   width: 216px;
-  margin-left: 13%;
+  margin: auto;
 }
 /* end testemonial style */
 
 /* start work-with-section style */
 .work-with-section {
-  margin: 88px 0;
+  margin: 160px 0;
 }
 .work-with-content-div {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   width: 80%;
-  margin-left: 10%;
+  margin: 60px auto;
 }
 .work-with-content-div img {
-  padding: 40px;
-  width: 313px;
-  height: 135px;
+  width: 20vw;
+  height: 14vw;
+}
+.work-with-content-div .work-with-content-image {
+  height: 9vw;
 }
 /* end work-with-section style  */
 
 /*start cards section */
 .cards {
   width: 90%;
-  margin-left: 2%;
+  margin: 180px auto;
   display: flex;
+  justify-content: space-evenly;
 }
 
-.cards .cards-info {
-  text-align: left;
+.cards-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
-
   position: relative;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  width: 40%;
-  height: 862px;
+  width: 25%;
+  min-width: 340px;
   padding: 20px 0;
-  margin-left: 7.5%;
+  height: 350px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.cards-info img {
-  width: 520px;
-  height: 400px;
+
+.cards-info-img1 {
+ background-image: url("../assets/images/1.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+
+
+}
+.cards-info-img2{
+  background-image: url("../assets/images/2.jpg");
+  background-size: auto 100%;
+  background-position: center;
+ background-repeat: no-repeat;
+ 
 }
 .overlay {
-  position: absolute;
   background-color: rgba(234, 225, 225, 0.7);
-  top: 163px;
-  bottom: 0;
-  left: 68px;
-  height: 11%;
-  width: 76%;
-  z-index: 0;
 }
 .overlay p {
   color: #912f00;
   font-family: 'Kite One', sans-serif;
   font-size: 16px;
   text-align: -webkit-center;
-  margin-top: 21px;
+  margin: 20px;
 }
 /*end cards section */
 
@@ -219,7 +223,6 @@ header-video {
   text-align: center;
   height: 249px;
   padding-top: 64px;
-  margin-top: -312px;
 }
 .partener h2 {
   margin-top: -46px;
@@ -234,8 +237,7 @@ header-video {
   font-size: 18px;
   width: 595px;
   text-align: -webkit-left;
-  margin-left: 378px;
-  margin-top: 10px;
+  margin: 10px auto;
   color: #f7f0f0;
   font-family: 'Kite One', sans-serif;
 }
