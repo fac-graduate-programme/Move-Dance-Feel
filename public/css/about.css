@@ -4,7 +4,7 @@
   }
 
 .about-us-section{
-    margin-top: 80px
+    margin-top: 160px
 }
 
 .about-us-title{
@@ -12,31 +12,30 @@
 }
 
 .about-us-h1{
-    font-family: "Quentin";
     color: #000000;
     display: block;
-    font-size: 60px;
-    font-weight: 550;
+    font-size: 50px;
     line-height: 22px;
 }
 
 .about-us-h3{
-    font-family: "Quentin";
     margin-top: 80px;
     color: #000000;
     display: block;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 300;
     padding-left: 5vw;
     padding-right: 5vw;
 }
 
 .about-us-content-div{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     margin-top: 60px;
     padding: 2vw;
-    max-width: 100%;
+    max-width: 90%;
+    margin: auto;
 }
 
 
@@ -52,19 +51,18 @@
     margin-top: 20px;
     color: #912F00;
     font-size: 25px;
-    padding-left: 10vw;
     width: 80%;
 }
 
 .right-video{
-    width: 760px;
+    width: 100%;
     height: 480px; 
 } 
 
 .main-paragraph{
-    font-size: 25px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    font-size: 16px;
+    width: 75%;
+  margin: auto;
 }
 
 @media only screen and (max-width:1300px){

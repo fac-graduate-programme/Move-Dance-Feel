@@ -60,14 +60,14 @@ header-video {
   width: 50%;
 }
 .who-content-div .pargraph-left {
-  font-size: 21px;
+  font-size: 16px;
   width: 98%;
   color: #6f6d6d;
   margin-bottom: 72px;
   padding: 10px;
 }
 .who-content-div .pargraph-right {
-  font-size: 21px;
+  font-size: 16px;
   width: 98%;
   color: #6f6d6d;
   padding: 10px;
@@ -106,7 +106,7 @@ header-video {
   background-color: #143a48;
 }
 .testemonial-desc {
-  font-size: 19px;
+  font-size: 18px;
   width: 575px;
   text-align: -webkit-center;
   margin-left: 378px;
@@ -231,7 +231,7 @@ header-video {
 }
 
 .partener p {
-  font-size: 19px;
+  font-size: 18px;
   width: 595px;
   text-align: -webkit-left;
   margin-left: 378px;

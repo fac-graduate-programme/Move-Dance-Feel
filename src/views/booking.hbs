@@ -39,6 +39,9 @@
               required>
           </div>
         </div>
+        <div class="error-message">
+          <span class="error-message-span"></span>
+        </div>
         <label for="experince">Previous Experience <span>*</span></label>
         <input type="text" class="contact-inputs" name="experince" id="experince" placeholder="Enter your Experince ..."
           required>
@@ -103,3 +106,12 @@
   </form>
 </section>
 {{!-- end volunteer form section --}}
+
+{{!-- start popup --}}
+<div class="popup">
+  <div class="popup--content">
+    <h2 class="popup--content-message"></h2>
+    <input class="popup--content-Done" value="OK" type="button">
+  </div>
+</div>
+{{!-- end popup --}}
