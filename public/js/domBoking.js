@@ -28,9 +28,14 @@ formContactUs.addEventListener('submit', (e) => {
         popup.classList.add('popup-show');
         popupMassage.textContent = 'We received your message, we will send you our response soon.';
       }
+      else if (res.msg === 'not done') {
+        popup.classList.add('popup-show');
+        popupMassage.textContent = 'We dont received your message, enternet connection off or server error please try again later.';
+      }
     })
     .catch(() => {
-      popupMassage.textContent = 'error server please try again later';
+      popup.classList.add('popup-show');
+      popupMassage.textContent = 'please try again and enter validate values';
     });
   return true;
 
