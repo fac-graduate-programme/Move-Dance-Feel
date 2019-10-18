@@ -49,7 +49,21 @@
   justify-self: center;
   align-self: center;
   font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
 }
+
+.timeline_content::after {
+  transition: all .5s ease-in-out;
+}
+
+.timeline_content.in-view {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .support_timeline-center {
   align-self: center;
