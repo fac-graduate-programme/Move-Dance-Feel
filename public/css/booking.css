@@ -150,3 +150,16 @@
     border: none;
   }
   /* POPUP STYLE */
+.error-message{
+  margin-top: -28px;
+}
+ .error-message span{
+  margin-top: -112px;
+  margin-left: 348px;
+ }
+
+
+
+
+
+
