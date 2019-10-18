@@ -1,3 +1,8 @@
+/* Navbar specific for home page */
+
+#navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 .top-section {
   width: 100vw;
   height: 717px;
