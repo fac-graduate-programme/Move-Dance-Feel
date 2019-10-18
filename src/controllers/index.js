@@ -22,6 +22,7 @@ router.get('/downloads', downloads.get);
 // router.get('/contact', contact.get);
 // router.get('/volunteer', volunteer.get);
 // router.post('/volunteer-form', volunteerForm.post);
+
 router.post('/contact', contact.post);
 router.get('/contact', contact.get);
 // router.post('/contact-us', postContactUs);
