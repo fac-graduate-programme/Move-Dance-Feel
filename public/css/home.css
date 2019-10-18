@@ -41,7 +41,7 @@ header-video {
   bottom: 35%;
   font-family: 'Kite One';
   font-size: 2rem;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   width: 450px;
   padding: 10px;
   color: #912f00;
@@ -224,7 +224,7 @@ header-video {
   height: 249px;
   padding-top: 64px;
 }
-.partener h2 {
+.partener h3 {
   margin-top: -46px;
   font-size: 26px;
   padding: 10px 10px;
