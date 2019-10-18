@@ -7,9 +7,9 @@ const fs = require('fs');
 const MUSTACHE = require('mustache');
 
 exports.get = (req, res) => {
-  res.render('booking', {
-    js: ['domBoking'],
-    css: 'booking',
+  res.render('contact', {
+    js: ['domContact'],
+    css: 'contact',
   });
 };
 
@@ -35,7 +35,7 @@ exports.post = async (req, res) => {
       '..',
       'public',
       'html',
-      'book.html',
+      'contact.html',
     );
 
     const template = fs.readFileSync(filePath, 'utf-8');

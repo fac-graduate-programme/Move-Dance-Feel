@@ -37,7 +37,7 @@ formContactUs.addEventListener('submit', (e) => {
     errorMessage.textContent = 'Please enter a valid email';
     return false;
   }
-  fetch('/booking-form', {
+  fetch('/contact', {
     method: 'POST',
     body: JSON.stringify(dataContactUs),
     headers: { 'Content-Type': 'application/json' },
