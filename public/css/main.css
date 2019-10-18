@@ -19,20 +19,20 @@ body {
   margin-bottom: 46px;
   text-align: center;
 }
-.heading-title h1 {
+.heading-title h1, .heading-title h2  {
   display: block;
   line-height: 22px;
   font-size: xx-large;
   font-size: 50px;
 }
-.heading-title h1::after {
+.heading-title h1::after .heading-title h2::after{
   background: #b1c9c5 none repeat scroll 0 0;
   content: ' ';
   display: inline-block;
   height: 2px;
   width: 70px;
 }
-.heading-title h1 span {
+.heading-title h1 span, .heading-title h2 span {
   display: block;
 }
 

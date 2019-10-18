@@ -7,6 +7,7 @@ exports.get = async (req, res, next) => {
       js: ['domAbout'],
       css: 'about',
       data,
+      title: 'Move Dance Feel UK: About us',
     });
   } catch (e) {
     next(e);
