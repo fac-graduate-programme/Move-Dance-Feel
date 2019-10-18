@@ -181,6 +181,7 @@ header-video {
   margin: 180px auto;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .cards-info {
@@ -226,8 +227,7 @@ header-video {
 .partener {
   background-color: #b1c9c5;
   text-align: center;
-  height: 249px;
-  padding-top: 64px;
+  padding: 64px 0;
 }
 .partener h3 {
   margin-top: -46px;
@@ -240,7 +240,7 @@ header-video {
 
 .partener p {
   font-size: 18px;
-  width: 595px;
+  width: 85%;
   text-align: -webkit-left;
   margin: 10px auto;
   color: #f7f0f0;
