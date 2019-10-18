@@ -1,8 +1,8 @@
 const nodemailer = require('nodemailer');
 const path = require('path');
 require('env2')('./.env')
-
 const password = process.env.pass;
+
 const fs = require('fs');
 const MUSTACHE = require('mustache');
 exports.get = (req, res) => {
@@ -41,7 +41,15 @@ exports.post = (async (req, res) => {
       to: 'naremanmohhilles@gmail.com', // emliy email
       subject: 'move dance booking',
       html: html_email,
+    }, function (error, info) {
+      if (error) {
+        res.status(500).send({ msg: 'not done' });
+      } else {
+        res.status(200).send({ msg: 'done' });
+      };
     });
   }
-  await main().catch(res.status(200).send({ msg: 'done' }));
+  await main().catch(
+    (e) => console.log(e)
+  );
 });
