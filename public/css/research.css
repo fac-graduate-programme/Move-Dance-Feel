@@ -43,6 +43,14 @@
     font-size: 25px;
     font-family: "Kite one";
     font-weight: bold;
+    text-align: center;
 }
 
-/* media query 780 */
+@media only screen and (max-width:780px){
+    .subheading2{
+        grid-row-start: 3;
+    }
+    .research_section{
+        grid-template-columns: 1fr;
+    }
+}
