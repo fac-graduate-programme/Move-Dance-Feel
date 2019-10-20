@@ -90,21 +90,22 @@
 
 /* Current Event section  */
 .event_section {
+    width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 60px auto;
 }
 
 .event_section h2 {
     font-size: 35px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .event_section p {
   display: inline;
   font-family: 'Kite one';
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .event_section ul {
