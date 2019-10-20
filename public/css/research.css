@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    width: 90%;
+    width: 85%;
     margin: auto;
 
 }
@@ -16,7 +16,8 @@
 }
 
 .research_intro {
-    margin: 160px auto;
+    margin: 140px auto;
+    width: 85%;
 }
 
 .research_paragraph a {
@@ -32,7 +33,7 @@
     margin-top: 20px;
    font-weight: bold;
    color: #999A9E;
-   font-size: 18px;
+   font-size: 16px;
 }
 
 
@@ -44,4 +45,4 @@
     font-weight: bold;
 }
 
-/* media query 860 */
+/* media query 780 */
