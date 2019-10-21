@@ -95,3 +95,71 @@
 .booking--container-right{
   margin-top: 0%;
   }
+  /* POPUP STYLE */
+  .popup {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .popup-show {
+    display: flex;
+  }
+
+  .popup--content {
+    background-color: #fefefe;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #888;
+    width: 30%;
+    height: fit-content;
+  }
+
+  .popup--content-message {
+    font-weight: 400;
+    color: #393939;
+    margin-bottom: 20px;
+    width: 85%;
+    text-align: center;
+  }
+
+  .popup--content-Done {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    width: 40%;
+    height: 50px;
+  }
+
+  .popup--content-autoMessage {
+    margin-top: 20px;
+  }
+
+  .popup--content-Done {
+    background: #719cab;
+    border-radius: 5px;
+    border: none;
+  }
+  /* POPUP STYLE */
+.error-message{
+  margin-top: -28px;
+}
+ .error-message span{
+  margin-top: -112px;
+  margin-left: 348px;
+ }
+
+
+
+
+
+
