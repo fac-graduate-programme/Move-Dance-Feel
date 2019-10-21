@@ -1,11 +1,20 @@
+/* Navbar specific for home page */
+
+#navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 .top-section {
   width: 100vw;
   height: 717px;
-  /* background: url('/assets/images/home.jpg'); */
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   position: relative;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url('/assets/images/home-top.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
 header-video {
@@ -32,7 +41,7 @@ header-video {
   left: 0;
   position: absolute;
   height: calc(100vw * 0.5625);
-  z-index: -1;
+  z-index: 1;
 }
 
 .top-section-text {
@@ -41,43 +50,83 @@ header-video {
   bottom: 35%;
   font-family: 'Kite One';
   font-size: 2rem;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   width: 450px;
   padding: 10px;
   color: #912f00;
+  z-index: 5;
 }
+
 /* start who we are style */
 .who-we-are-section {
   padding-top: 100px;
   margin-top: 80px;
 }
+
+@media only screen and (max-width:1200px){
+  .top-section{
+    margin-top: 100px; 
+  }
+  .top-section-text{
+    display: none
+  }
+  .top-section{
+    height: 60vw;
+  }
+  .who-we-are-section {
+    padding-top: 0;
+    margin-top: 30px;
+  }
+  
+}
+
 .who-content {
   display: flex;
+  flex-direction: column;
   width: 80%;
   margin: auto;
 }
 .who-content-div {
-  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .who-content-div .pargraph-left {
   font-size: 16px;
   width: 98%;
   color: #6f6d6d;
-  margin-bottom: 72px;
   padding: 10px;
+  max-width: 550px;
 }
 .who-content-div .pargraph-right {
   font-size: 16px;
   width: 98%;
+  max-width: 550px;
   color: #6f6d6d;
   padding: 10px;
   margin-top: 9px;
   margin-left: 13px;
 }
 .who-content img {
-  width: 100%;
+  width: 60%;
+  max-width: 550px;
   height: 300px;
+  margin: 10px;
 }
+
+@media only screen and (max-width:700px){
+  .who-content img{
+    display: none;
+  }
+  .who-content{
+    flex-direction: column;
+  }
+  .who-content-div{
+    width: 100%;
+  }
+}
+
 /* end who we are style */
 
 /* start testemonial style */
@@ -176,6 +225,7 @@ header-video {
   margin: 180px auto;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .cards-info {
@@ -221,10 +271,9 @@ header-video {
 .partener {
   background-color: #b1c9c5;
   text-align: center;
-  height: 249px;
-  padding-top: 64px;
+  padding: 64px 0;
 }
-.partener h2 {
+.partener h3 {
   margin-top: -46px;
   font-size: 26px;
   padding: 10px 10px;
@@ -235,7 +284,8 @@ header-video {
 
 .partener p {
   font-size: 18px;
-  width: 595px;
+  width: 85%;
+  max-width: 700px;
   text-align: -webkit-left;
   margin: 10px auto;
   color: #f7f0f0;

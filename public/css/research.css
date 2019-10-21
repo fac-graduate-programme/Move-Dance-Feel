@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    width: 90%;
+    width: 85%;
     margin: auto;
 
 }
@@ -16,7 +16,9 @@
 }
 
 .research_intro {
-    margin: 160px auto;
+    margin: 80px auto;
+    width: 85%;
+    margin-top: 0;
 }
 
 .research_paragraph a {
@@ -32,7 +34,7 @@
     margin-top: 20px;
    font-weight: bold;
    color: #999A9E;
-   font-size: 18px;
+   font-size: 16px;
 }
 
 
@@ -42,6 +44,14 @@
     font-size: 25px;
     font-family: "Kite one";
     font-weight: bold;
+    text-align: center;
 }
 
-/* media query 860 */
+@media only screen and (max-width:780px){
+    .subheading2{
+        grid-row-start: 3;
+    }
+    .research_section{
+        grid-template-columns: 1fr;
+    }
+}
