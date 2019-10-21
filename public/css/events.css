@@ -9,12 +9,14 @@
   font-weight: bold;
   font-family: 'Kite One', sans-serif;
 }
-.events-details > h1,
-.center-events-details > h1 {
+.events-details > a,
+.center-events-details > a {
   font-size: 25px;
   display: inline;
   font-weight: bold;
   font-family: 'Kite One', sans-serif;
+  color: #000000;
+
 }
 .events-content {
   display: flex;
