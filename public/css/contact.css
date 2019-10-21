@@ -1,34 +1,50 @@
-.booking p{
+.contact p , .option p{
   text-align: center;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  margin-top: -40px;
   color: #868e96;
   width: 80%;
   padding-bottom: 68px;
   padding-left: 20%;
   font-family: 'Kite One', sans-serif;
 }
-.booking form{
+.radio-input{
+display: grid;
+margin-left: 46%;
+font-size: 20px;
+margin-top: -41px;
+}
+.option span{
+  margin-left: 15px;
+}
+.radio-input >div{
+margin-bottom: 15px;
+  }
+.hide{
+  display: none;
+}
+.contact form{
   margin-left: 20%;
   margin-bottom: 5%;
 }
-.booking--container{
+.contact--container{
   display: flex;
 }
-.booking--container-filed {
+.contact--container-filed {
   display: grid;
   margin-right: 120px;
 }
-.booking--container-row{
+.contact--container-row{
   display: flex;
   margin-bottom: 20px;
 }
-.booking--container-filed{
+.contact--container-filed{
   display: grid;
 }
-.booking--container-left{
+.contact--container-left{
     display: grid;
     margin-right: 6%;
     margin-bottom: 1%;
@@ -39,10 +55,10 @@
 .check-button input{
   margin-bottom: 10px;
 }
-.booking--container-left  label{
+.contact--container-left  label{
   margin-bottom: .5rem;
 }
-.booking--container-left input{
+.contact--container-left input{
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
@@ -58,10 +74,10 @@
   margin-bottom: 20px;
   outline: none;
 }
-.booking--container-row input{
+.contact--container-row input{
   width: 142%;
 }
-.booking--contactUs-formSubmit{
+.contact--contactUs-formSubmit{
   border: 1px solid #719cab;
   text-transform: uppercase;
   color: #719cab;
@@ -72,11 +88,11 @@
   padding: 0.8rem !important;
   width: 17%;
 }
-.booking--contactUs-formSubmit:hover{
+.contact--contactUs-formSubmit:hover{
   background:#719cab;
   color: #fff;
 }
-.booking span{
+.contact span{
   color: red;
 }
 .contactUs--formMessage{
@@ -92,7 +108,7 @@
     outline: none;
 }
 
-.booking--container-right{
+.contact--container-right{
   margin-top: 0%;
   }
   /* POPUP STYLE */
