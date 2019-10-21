@@ -6,14 +6,15 @@
 .top-section {
   width: 100vw;
   height: 717px;
-  /* background: url('/assets/images/home.jpg'); */
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   position: relative;
   top: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background: url('/assets/images/home-top.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
 header-video {
@@ -40,7 +41,7 @@ header-video {
   left: 0;
   position: absolute;
   height: calc(100vw * 0.5625);
-  z-index: -1;
+  z-index: 1;
 }
 
 .top-section-text {
@@ -53,6 +54,7 @@ header-video {
   width: 450px;
   padding: 10px;
   color: #912f00;
+  z-index: 5;
 }
 
 /* start who we are style */

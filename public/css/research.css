@@ -16,8 +16,9 @@
 }
 
 .research_intro {
-    margin: 140px auto;
+    margin: 80px auto;
     width: 85%;
+    margin-top: 0;
 }
 
 .research_paragraph a {
