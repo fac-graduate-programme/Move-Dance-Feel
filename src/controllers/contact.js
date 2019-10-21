@@ -1,10 +1,13 @@
 const nodemailer = require('nodemailer');
 const path = require('path');
-require('env2')('./.env')
-const password = process.env.pass;
-
 const fs = require('fs');
 const MUSTACHE = require('mustache');
+
+require('env2')('./.env')
+const password = process.env.PASS;
+const emailENV = process.env.EMAIL;
+
+
 
 exports.get = (req, res) => {
   res.render('contact', {
@@ -33,7 +36,7 @@ exports.post = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'naremanmohhilles@gmail.com', // emily email
+        user: emailENV, // emily email
         pass: password, // pass of emily
       },
     });
@@ -52,7 +55,7 @@ exports.post = async (req, res) => {
 
     await transporter.sendMail({
       from: 'MDF user',
-      to: 'naremanmohhilles@gmail.com', // emliy email
+      to: emailENV, // emliy email
       subject: 'move dance booking',
       html: html_email,
     }, function (error, info) {
