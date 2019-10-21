@@ -40,6 +40,7 @@ document.addEventListener('submit', function (event) {
       errorMessage.textContent = 'Please enter a valid email';
       return false;
     }
+    console.log({dataContactUs})
     fetch('/contact',
       {
         method: 'POST',

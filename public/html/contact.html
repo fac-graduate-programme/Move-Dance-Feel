@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web site" />
+    <title>MDF</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="description" content="Web site" />
-  <title>MDF</title>
-</head>
+  <body>
+    <div id="root">
+      <h2>Hello</h2>
 
-<body>
-  <div id="root">
-    Hello, my name is:
-    {{username}}
-    My email address is:
-    {{useremail}}
-    I have experience in:
-    {{userexperince}}
-    message:
-    {{msg}}
-    I can help with:
-    {{userhelp}}
-    and i am intrest in
-    {{userint}}
+      <p>my name is: {{ username }}</p>
+      <p>My email address is: {{ useremail }}</p>
 
-  </div>
+      <p>I have experience in: {{ userexperince }}</p>
 
-</body>
+      <p>
+        I can help with:
+        {{#userhelp}}
+        {{ topic }}
+        {{/userhelp}}
+      </p>
 
+      <p>
+        I am intrested in 
+        {{#userint}}
+        {{ topic }}
+        {{/userint}}
+      </p>
+
+      <p>message: {{ msg }}</p>
+    </div>
+  </body>
 </html>

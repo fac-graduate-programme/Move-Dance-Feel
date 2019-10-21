@@ -19,9 +19,12 @@ exports.get = (req, res) => {
 // eslint-disable-next-line no-unused-vars
 exports.post = async (req, res) => {
   const {
-    name, email, experince, message, int, help
+    name, email, experince, message, int1, int2, int3, help1, help2, help3
   } = req.body;
 
+  const int = [{topic: int1},{topic: int2} , {topic:int3}]
+ const help = [{topic: help1},{topic: help2} , {topic:help3}]
+ console.log(int)
   const data = {
     username: name,
     useremail: email,
