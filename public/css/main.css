@@ -1,6 +1,5 @@
 .section {
   margin-top: 160px;
-  min-height: 63vh;
 }
 
 /*general css avalible for all pages*/
@@ -10,7 +9,7 @@
   box-sizing: border-box;
   direction: ltr;
   font-size: 100%;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -45,6 +44,11 @@ body {
 @font-face {
   font-family: "Quentin";
   src: url("../assets/Quentin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Optima";
+  src: url("../assets/OPTIMA.TTF") format("truetype");
 }
 
 .subheading_font {
@@ -275,7 +279,7 @@ body {
 .slider-pargraph {
   color: #898989;
   text-align: -webkit-center;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 25px;
   width: 38%;
 }
@@ -302,7 +306,7 @@ body {
 }
 
 .navbar-link {
-  font-family: "Kite One";
+  font-family: "Optima";
   margin: 0 15px;
   color: black;
   text-decoration: none;
@@ -310,7 +314,7 @@ body {
 }
 
 .navbar .navigation a:hover {
-  color: #912f00;
+  color:  #104052;
 }
 
 /* burger menu */

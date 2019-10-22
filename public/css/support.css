@@ -12,7 +12,7 @@
   border-radius: 10px;
   color: #ffffff;
   margin: 1em;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 1.6em;
   text-decoration: none;
 }
@@ -33,7 +33,7 @@
 .support_volunteer_intro {
   width: 100%;
   font-size: 16px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 40px;
 }
 .support_volunteer_intro p {

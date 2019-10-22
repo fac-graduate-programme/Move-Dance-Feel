@@ -1,6 +1,6 @@
 .contact p,
 .option p {
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10,7 +10,7 @@
   width: 80%;
   padding-bottom: 68px;
   padding-left: 20%;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .radio-input {
   display: grid;

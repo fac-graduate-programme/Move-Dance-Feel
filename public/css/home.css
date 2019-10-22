@@ -48,12 +48,12 @@ header-video {
   position: absolute;
   left: 3%;
   bottom: 35%;
-  font-family: "Kite One";
+  font-family: "Optima";
   font-size: 2rem;
   background: rgba(255, 255, 255, 0.7);
   width: 450px;
   padding: 10px;
-  color: #912f00;
+  color:  #104052;
   z-index: 5;
 }
 
@@ -261,8 +261,8 @@ header-video {
   background-color: rgba(234, 225, 225, 0.7);
 }
 .overlay p {
-  color: #912f00;
-  font-family: "Kite One", sans-serif;
+  color:  #104052;
+  font-family: "Optima", sans-serif;
   font-size: 16px;
   text-align: -webkit-center;
   margin: 20px;
@@ -279,8 +279,8 @@ header-video {
   margin-top: -46px;
   font-size: 26px;
   padding: 10px 10px;
-  color: #912f00;
-  font-family: "Kite One", sans-serif;
+  color:  #104052;
+  font-family: "Optima", sans-serif;
   line-height: 22px;
 }
 
@@ -291,12 +291,12 @@ header-video {
   text-align: -webkit-left;
   margin: 10px auto;
   color: rgb(85, 76, 76);
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .partener a {
   background: #ffffff none repeat scroll 0 0;
-  color: #912f00;
+  color:  #104052;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -310,7 +310,7 @@ header-video {
   margin-top: 15px;
 }
 .partener a .fa {
-  color: #912f00;
+  color:  #104052;
   font-size: 14px;
   border-left: 1px solid #d2d2d2;
   padding-left: 15px;
@@ -318,14 +318,14 @@ header-video {
   line-height: 42px;
 }
 .partener a:hover .fa {
-  color: #912f00;
-  border-color: #912f00;
+  color:  #104052;
+  border-color:  #104052;
 }
 
 .partener a:hover {
   background: #b1c9c5;
-  color: #912f00;
-  border-color: #912f00;
+  color:  #104052;
+  border-color:  #104052;
 }
 
 /*end partener section */

@@ -7,14 +7,14 @@
   text-align: -webkit-center;
   font-size: 25px;
   font-weight: bold;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .events-details > a,
 .center-events-details > a {
   font-size: 25px;
   display: inline;
   font-weight: bold;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #000000;
 }
 .events-content {
@@ -25,7 +25,7 @@
 }
 .events-details,
 .center-events-details {
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
   margin-bottom: 0px;
   margin-top: 2%;
   width: 500px;
@@ -35,7 +35,7 @@
 .center-events-details p {
   padding-top: 10px;
   font-size: 16px;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
   color: rgb(85, 76, 76);
 }
 .events-details span,
@@ -44,7 +44,7 @@
   font-size: 18px;
   padding-top: 10px;
   color: #000000;
-  font-family: "Kite One", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .center-events-details {
   margin: 20px auto;
