@@ -26,6 +26,7 @@ endpoints.map(endpoint => {
       .expect('content-type', /text/)
       .end((err, res) => {
         t.error(err);
+        t.ok(res.text.indexOf('Page Not Found') === -1);
         t.end();
       });
   });
@@ -34,7 +35,7 @@ endpoints.map(endpoint => {
 test('testing if /random gives a status code of 404', t => {
   request(app)
     .get('/random')
-    .expect(200)
+    .expect(404)
     .expect('content-type', /text/)
     .end((err, res) => {
       t.error(err);

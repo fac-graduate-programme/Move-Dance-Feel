@@ -1,64 +1,66 @@
-.contact p , .option p{
+.contact p,
+.option p {
   text-align: center;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.2rem;
   margin-top: -40px;
-  color: #868e96;
+  color: #6f6d6d;
   width: 80%;
   padding-bottom: 68px;
   padding-left: 20%;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
 }
-.radio-input{
-display: grid;
-margin-left: 46%;
-font-size: 20px;
-margin-top: -41px;
+.radio-input {
+  display: grid;
+  margin: auto;
+  font-size: 20px;
+  margin-top: -41px;
+  width: fit-content;
 }
-.option span{
+.option span {
   margin-left: 15px;
 }
-.radio-input >div{
-margin-bottom: 15px;
-  }
-.hide{
+.radio-input > div {
+  margin-bottom: 15px;
+}
+.hide {
   display: none;
 }
-.contact form{
+.contact form {
   margin-left: 20%;
   margin-bottom: 5%;
 }
-.contact--container{
+.contact--container {
   display: flex;
 }
 .contact--container-filed {
   display: grid;
   margin-right: 120px;
 }
-.contact--container-row{
+.contact--container-row {
   display: flex;
   margin-bottom: 20px;
 }
-.contact--container-filed{
+.contact--container-filed {
   display: grid;
 }
-.contact--container-left{
-    display: grid;
-    margin-right: 6%;
-    margin-bottom: 1%;
+.contact--container-left {
+  display: grid;
+  margin-right: 6%;
+  margin-bottom: 1%;
 }
-.check-button{
+.check-button {
   margin-top: 20px;
 }
-.check-button input{
+.check-button input {
   margin-bottom: 10px;
 }
-.contact--container-left  label{
-  margin-bottom: .5rem;
+.contact--container-left label {
+  margin-bottom: 0.5rem;
 }
-.contact--container-left input{
+.contact--container-left input {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
@@ -74,108 +76,128 @@ margin-bottom: 15px;
   margin-bottom: 20px;
   outline: none;
 }
-.contact--container-row input{
+.contact--container-row input {
   width: 142%;
 }
-.contact--contactUs-formSubmit{
+.contact--contactUs-formSubmit {
   border: 1px solid #719cab;
   text-transform: uppercase;
-  color: #719cab;
+  color: #4f7481;
   background: none;
   letter-spacing: 0.2em !important;
   font-size: 13px !important;
   border-radius: 0;
   padding: 0.8rem !important;
   width: 17%;
+  min-width: 90px;
 }
-.contact--contactUs-formSubmit:hover{
-  background:#719cab;
+.contact--contactUs-formSubmit:hover {
+  background: #719cab;
   color: #fff;
 }
-.contact span{
+.contact span {
   color: red;
 }
-.contactUs--formMessage{
-    width: 100%;
-    height: 50px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    margin-bottom: 30px;
-    padding: 10px;
-    height: 150px;
-    resize: none;
-    outline: none;
+.contactUs--formMessage {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 150px;
+  resize: none;
+  outline: none;
 }
 
-.contact--container-right{
+.contact--container-right {
   margin-top: 0%;
-  }
-  /* POPUP STYLE */
-  .popup {
-    position: fixed;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
+}
+/* POPUP STYLE */
+.popup {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
-  .popup-show {
-    display: flex;
-  }
+.popup-show {
+  display: flex;
+}
 
-  .popup--content {
-    background-color: #fefefe;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #888;
-    width: 30%;
-    height: fit-content;
-  }
+.popup--content {
+  background-color: #fefefe;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #888;
+  width: 30%;
+  height: fit-content;
+}
 
-  .popup--content-message {
-    font-weight: 400;
-    color: #393939;
-    margin-bottom: 20px;
-    width: 85%;
-    text-align: center;
-  }
+.popup--content-message {
+  font-weight: 400;
+  color: #393939;
+  margin-bottom: 20px;
+  width: 85%;
+  text-align: center;
+}
 
-  .popup--content-Done {
-    color: white;
-    font-size: 30px;
-    letter-spacing: 5px;
-    width: 40%;
-    height: 50px;
-  }
+.popup--content-Done {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  width: 40%;
+  height: 50px;
+}
 
-  .popup--content-autoMessage {
-    margin-top: 20px;
-  }
+.popup--content-autoMessage {
+  margin-top: 20px;
+}
 
-  .popup--content-Done {
-    background: #719cab;
-    border-radius: 5px;
-    border: none;
-  }
-  /* POPUP STYLE */
-.error-message{
+.popup--content-Done {
+  background: #719cab;
+  border-radius: 5px;
+  border: none;
+}
+/* POPUP STYLE */
+.error-message {
   margin-top: -28px;
 }
- .error-message span{
+.error-message span {
   margin-top: -112px;
   margin-left: 348px;
- }
+}
 
+@media only screen and (max-width: 1000px) {
+  .contact--container-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
-
-
-
-
+@media only screen and (max-width: 625px) {
+  .contact--container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .check-button {
+    display: flex;
+    flex-direction: row;
+  }
+  div input {
+    margin-right: 20px;
+    margin: 5px;
+  }
+  .contact--container-row input {
+    width: 110%;
+  }
+}

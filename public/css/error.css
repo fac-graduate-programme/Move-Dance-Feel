@@ -1,0 +1,18 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.error_intro {
+  text-align: center;
+  margin-top: 0;
+  padding: 30px;
+}
+
+.error_img {
+  width: 70%;
+  align-self: center;
+  margin: 40px;
+}
