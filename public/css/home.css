@@ -302,21 +302,26 @@ header-video {
 
 /*start partener section */
 .partener {
-  background-color: #b1c9c5;
+  background: url(../assets/images/partener.jpg) no-repeat center / cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
   padding: 64px 0;
+  height: 293px;
 }
+
 .partener h3 {
   margin-top: -46px;
   font-size: 26px;
-  padding: 10px 10px;
+  padding: 72px 10px 30px 10px;
   color: #912f00;
   font-family: "Kite One", sans-serif;
   line-height: 22px;
 }
 
 .partener p {
-  font-size: 18px;
+  font-size: 24px;
   width: 85%;
   max-width: 700px;
   text-align: -webkit-left;
@@ -338,7 +343,7 @@ header-video {
   border: 1px solid #ffffff;
   border-radius: 5px;
   line-height: 42px;
-  margin-top: 15px;
+  margin-top: 37px;
 }
 .partener a .fa {
   color: #912f00;
@@ -354,7 +359,7 @@ header-video {
 }
 
 .partener a:hover {
-  background: #b1c9c5;
+  background: #ccc;
   color: #912f00;
   border-color: #912f00;
 }
