@@ -151,7 +151,7 @@
 .slider-pargraph {
   color: #898989;
   text-align: -webkit-center;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-size: 25px;
   width: 38%;
 }
@@ -173,13 +173,13 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 40px auto;
-  margin-top: 0; 
+  margin-top: 0;
   align-items: center;
   width: 85%;
 }
 
 .download_paragraph {
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-size: 16px;
   width: 40%;
   min-width: 300px;
@@ -187,12 +187,12 @@
 
 .download_button {
   text-decoration: none;
-  background-color: #28a745;
+  background-color: #719cab;
   padding: 10px 40px;
   margin: 5% 0;
   color: #ffffff;
   font-size: 1.6em;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -201,5 +201,4 @@
   width: 100%;
   max-width: 750px;
   margin-bottom: 40px;
-
 }

@@ -142,7 +142,7 @@ header-video {
 }
 .over {
   position: absolute;
-  background-color: rgba(234, 225, 225, 0.7);
+  background-color: rgba(222, 222, 222, 0.7);
   top: 0;
   bottom: 0;
   height: 100%;
@@ -331,8 +331,7 @@ header-video {
 
 /*end partener section */
 
-@media only screen and (max-width:1000px){
-
+@media only screen and (max-width: 1000px) {
   .CSSgal.slider-home {
     display: none;
   }
