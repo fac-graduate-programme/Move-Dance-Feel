@@ -1,5 +1,5 @@
 .section {
-  margin-top: 160px;
+  margin-top: 160px; 
   min-height: 63vh;
 }
 
@@ -25,7 +25,7 @@ body {
   display: block;
   line-height: 22px;
   font-size: xx-large;
-  font-size: 50px;
+  font-size: 75px;
 }
 .heading-title h1::after .heading-title h2::after {
   background: #b1c9c5 none repeat scroll 0 0;
@@ -42,6 +42,63 @@ body {
 
 /* end heading style */
 
+/* social media style */
+.icon-float{
+  position: fixed;
+  left: 0px;
+  top: 35%;
+  z-index: 999;
+}
+.icon-float ul{
+  padding:0px;
+}
+.icon-float ul li{
+  list-style-type:none;
+
+}
+
+.icon-float ul li a {
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 0px;
+}
+.icon-float ul li a i {
+  padding: 8px;
+  width: 40px;
+  height: 32px;
+  text-align: center;
+  color: #fff;
+}
+.icon-float ul li a:hover {
+  transform: rotateY(-180deg);
+}
+
+.icon-float ul li a:hover i {
+  transform: rotateY(180deg);
+}
+.wat{
+  background: #34af23;
+}
+
+.fb1{
+  background: #3b5998;
+
+}
+.twt{
+  background:#1da1f2;
+}
+.gemail{
+  background:  #D44638;
+}
+.inst{
+  background: #E1306C;
+}
+
+
+/* social media */
 @font-face {
   font-family: "Quentin";
   src: url("../assets/Quentin.ttf") format("truetype");
@@ -55,20 +112,21 @@ body {
 /*start style of footer section*/
 
 .footer {
-  background-color: #191919;
-  bottom: 0;
+  background-color:#565353;
+  height: 90px;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
-.footer__container-left {
-  font-size: 14px;
+  padding-top: 23px
 }
 
+.footer__container-left{
+  padding-left: 5%; 
+
+}
 .footer__container a {
-  padding: 13px;
+  padding: 6px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -83,35 +141,27 @@ body {
 }
 
 .footer__container ul {
-  font-size: 30px;
-  margin: 26px 46px;
-  margin-bottom: 35px;
+  font-size: 26px;
 }
-.footer__container .copyright {
-  color: #ad9f9f;
-  width: 100%;
-  text-align: center;
-}
+
 .footer__container-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 121px;
-  padding-right: 5%;
+  padding-right: 5%; 
+  color: white;
+  font-size: 12px;
+  padding-top: 30px;
 }
 .flex {
   display: flex;
 }
 .flex p {
-  color: #ad9f9f;
+  color: white;
   padding-left: 22px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .flex i {
-  font-size: 30px;
+  font-size: 24px;
   color: #b1c9c5;
-  margin: -2px 1px 6px 6px;
+  color: #719cab;;
 }
 
 @media only screen and (max-width: 575px) {
@@ -294,23 +344,53 @@ body {
   background-color: #fff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
+  height: 85px;
+  padding: 20px 25px;
 }
 
 .navbar-logo {
-  width: 200px;
-  margin: 10px;
+  max-height: 64%;
+  top: 15%;
+  position: absolute;
+  opacity: 0.5;
+  width: 218px; 
 }
 
 .navbar-link {
-  font-family: "Kite One";
-  margin: 0 15px;
-  color: black;
+  color: #a0a0a0;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 27px !important;
+  padding-left: 15px !important;
+  letter-spacing: 2px;
+  font-family: Didact Gothic;
+}
+.contact-button{
+  background: #719cab;
+  color: #fff;
+  padding: 20px;
+  font-family: Didact Gothic;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.11px;
+  text-transform: none;
+  text-decoration: none;
+  padding: 1em 1.5em !important;
 }
 
-.navbar .navigation a:hover {
-  color: #912f00;
+
+.navbar-link:hover {
+  color: #719cab;
+  font-weight: 600;
+}
+
+.contact-button:hover{
+  opacity: 0.9;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* burger menu */

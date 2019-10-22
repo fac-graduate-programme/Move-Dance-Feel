@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
+  opacity: 0.5;
 }
 
 header-video {
@@ -44,22 +45,51 @@ header-video {
   z-index: 1;
 }
 
-.top-section-text {
+
+.top-section-text .top-title{
   position: absolute;
-  left: 3%;
-  bottom: 35%;
-  font-family: "Kite One";
-  font-size: 2rem;
-  background: rgba(255, 255, 255, 0.7);
-  width: 450px;
-  padding: 10px;
-  color: #912f00;
+  left: 27%;
+  bottom: 61%;
+  font-family: garamond-premier-pro-display;
+  font-size: 73px;
+  color: #104052;
+  line-height: 1em;
+  font-weight: 400;
   z-index: 5;
+}
+.top-section-text p{
+  position: absolute;
+  left: 11%;
+  bottom: 42%;
+  font-family: garamond-premier-pro-display;
+  font-size: 38px;
+  color: #104052;
+  line-height: 1em;
+  font-weight: 400;
+  z-index: 5;
+}
+.top-button{
+  position: absolute;
+  left: 42%;
+  bottom: 25%;
+  background: #fff;
+  color:  #093848;
+  font-size: 18px;
+  padding: 21px 63px;
+  font-family: Didact Gothic;
+  text-decoration: none;
+  letter-spacing: 1.98px;
+  margin: -51px 0;
+  line-height: 1em;
+  z-index: 5;
+}
+.top-button:hover{
+  background: #093848;
+  color: #fff;
 }
 
 /* start who we are style */
 .who-we-are-section {
-  padding-top: 100px;
   margin-top: 80px;
 }
 
@@ -85,6 +115,7 @@ header-video {
   width: 80%;
   margin: auto;
 }
+
 .who-content-div {
   margin: auto;
   display: flex;
@@ -92,26 +123,28 @@ header-video {
   align-items: center;
 }
 .who-content-div .pargraph-left {
-  font-size: 16px;
+  font-size: 20px;
   width: 98%;
   color: #6f6d6d;
+  margin-bottom: 36px;
   padding: 10px;
-  max-width: 550px;
 }
 .who-content-div .pargraph-right {
-  font-size: 16px;
+  font-size: 20px;
   width: 98%;
-  max-width: 550px;
   color: #6f6d6d;
-  padding: 10px;
-  margin-top: 9px;
-  margin-left: 13px;
+  padding: 25px;
+  margin-top: -9px;
+  margin-left: 28px;
 }
 .who-content img {
   width: 60%;
   max-width: 550px;
   height: 300px;
   margin: 10px;
+}
+.who-content .img2{
+margin-top: -66px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -188,7 +221,7 @@ header-video {
   margin-top: 15px;
 }
 .testemonial .test-info .test-info-span {
-  color: #2c2f36;
+  color: #912f00;
   display: block;
   margin-bottom: 10px;
 }
@@ -200,9 +233,7 @@ header-video {
 /* end testemonial style */
 
 /* start work-with-section style */
-.work-with-section {
-  margin: 160px 0;
-}
+
 .work-with-content-div {
   display: flex;
   justify-content: space-evenly;
@@ -227,7 +258,8 @@ header-video {
 /*start cards section */
 .cards {
   width: 90%;
-  margin: 180px auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -239,12 +271,13 @@ header-video {
   align-items: center;
   margin-bottom: 10px;
   position: relative;
-  width: 25%;
+  width: 46%;
   min-width: 340px;
   padding: 20px 0;
   height: 350px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 .cards-info-img1 {
   background-image: url("../assets/images/1.png");
@@ -267,25 +300,35 @@ header-video {
   text-align: -webkit-center;
   margin: 20px;
 }
+.overlay p:hover{
+  font-weight: 800;
+  opacity: 0.8;
+  font-size: 18px;
+}
 /*end cards section */
 
 /*start partener section */
 .partener {
-  background-color: #b1c9c5;
+  background: url(../assets/images/partener.jpg) no-repeat center / cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
   padding: 64px 0;
+  height: 293px;
 }
+
 .partener h3 {
   margin-top: -46px;
   font-size: 26px;
-  padding: 10px 10px;
+  padding: 72px 10px 30px 10px;
   color: #912f00;
   font-family: "Kite One", sans-serif;
   line-height: 22px;
 }
 
 .partener p {
-  font-size: 18px;
+  font-size: 24px;
   width: 85%;
   max-width: 700px;
   text-align: -webkit-left;
@@ -307,7 +350,7 @@ header-video {
   border: 1px solid #ffffff;
   border-radius: 5px;
   line-height: 42px;
-  margin-top: 15px;
+  margin-top: 37px;
 }
 .partener a .fa {
   color: #912f00;
@@ -323,7 +366,7 @@ header-video {
 }
 
 .partener a:hover {
-  background: #b1c9c5;
+  background: #ccc;
   color: #912f00;
   border-color: #912f00;
 }
@@ -336,3 +379,12 @@ header-video {
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
