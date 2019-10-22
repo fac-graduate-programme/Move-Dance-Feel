@@ -83,7 +83,7 @@ header-video {
 .who-content {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .who-content-div {
@@ -138,6 +138,8 @@ header-video {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  width:80%;
+  margin: auto;
   padding: 40px 0;
 }
 .over {
@@ -178,7 +180,7 @@ header-video {
   padding: 20px 10px;
   color: rgb(85, 76, 76);
   display: block;
-  height: 400px;
+  height: 320px;
   width: 311px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
