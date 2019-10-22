@@ -1,6 +1,7 @@
 const endpoints = [
   'downloads',
   'events',
+  'gallery',
   'research',
   'support',
 ];
@@ -8,6 +9,7 @@ const endpoints = [
 const seo = [
   'Move Dance Feel UK: information, flyer, download',
   'Move Dance Feel UK: Support us, be a partner',
+  'Move Dance Feel UK: images and videos',
   'Move Dance Feel UK: Research, reports & evidence',
   'Move Dance Feel UK: Support us, be a partner',
 ];
