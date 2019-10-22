@@ -12,12 +12,14 @@
   <p>What are you getting in contact about either?</p>
   <div class="radio-input">
     <div>
-      <input type="radio" name="tab" value="Volunteering" onclick="show1();" checked />
-      <span>Volunteering</span>
+      <label for="volunteering"><input type="radio" name="tab" value="Volunteering" onclick="show1();" checked />
+        <span>Volunteering</span></label>
+
     </div>
     <div>
-      <input type="radio" name="tab" value="booking" onclick="show2();" />
-      <span>booking a talk</span>
+      <label for="booking"><input type="radio" name="tab" value="booking" onclick="show2();" />
+        <span>booking a talk</span></label>
+
     </div>
   </div>
 </section>
@@ -100,10 +102,16 @@
       <div class="contact--container-right">
         <label for="help">I can help with <span>*</span></label>
         <div class="check-button">
-          <input type="checkbox" class="contact-inputs" name="help1" value="Fund Raising"> Fund Raising <br>
-          <input type="checkbox" class="contact-inputs" name="help2" value="Event Organiser"> Event Organiser<br>
-          <input type="checkbox" class="contact-inputs" name="help3" value="Content Producer"> Content
-          Producer<br><br>
+          <label for="fund-raising"><input type="checkbox" class="contact-inputs" name="help1" value="Fund Raising">
+            Fund Raising <br></label>
+          <label for="event-organiser"><input type="checkbox" class="contact-inputs" name="help2"
+              value="Event Organiser"> Event Organiser<br>
+          </label>
+          <label for="content-producer"><input type="checkbox" class="contact-inputs" name="help3"
+              value="Content Producer"> Content
+            Producer<br><br></label>
+
+
         </div>
       </div>
     </div>

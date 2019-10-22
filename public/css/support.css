@@ -6,13 +6,13 @@
 }
 
 .support_volunteer_button {
-  background-color: #b1c9c5;
+  background-color: #59899b;
   padding: 10px 40px;
   border: none;
   border-radius: 10px;
   color: #ffffff;
   margin: 1em;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-size: 1.6em;
   text-decoration: none;
 }
@@ -95,7 +95,7 @@
   transform: translateX(-50%);
   top: 13%;
   bottom: 13%;
-  content: ' ';
+  content: " ";
   position: absolute;
   width: 2px;
   background: #000000;
