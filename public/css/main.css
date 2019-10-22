@@ -316,7 +316,7 @@ body {
 .burger, .navbar input {
   display: none;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1220px){
 .burger {
   display: inline-block;
   border: 0;
