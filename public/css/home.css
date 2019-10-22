@@ -206,6 +206,7 @@ header-video {
 .work-with-content-div {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   width: 80%;
   margin: 60px auto;
@@ -213,9 +214,13 @@ header-video {
 .work-with-content-div img {
   width: 20vw;
   height: 14vw;
+  min-width: 200px;
+  min-height: 130px;
+  margin: 10px;
 }
 .work-with-content-div .work-with-content-image {
   height: 9vw;
+  min-height: 85px;
 }
 /* end work-with-section style  */
 
@@ -324,3 +329,10 @@ header-video {
 }
 
 /*end partener section */
+
+@media only screen and (max-width:1000px){
+
+  .CSSgal.slider-home {
+    display: none;
+  }
+}

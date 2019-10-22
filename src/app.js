@@ -4,7 +4,6 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const compression = require('compression');
-const error = require('./controllers/error');
 const controllers = require('./controllers');
 
 const app = express();
@@ -29,7 +28,5 @@ const middleware = [
 ];
 app.use(middleware);
 app.use(controllers);
-app.use(error.client);
-app.use(error.server);
 
 module.exports = app;

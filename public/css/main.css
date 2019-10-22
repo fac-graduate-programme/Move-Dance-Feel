@@ -1,5 +1,6 @@
 .section {
   margin-top: 160px;
+  min-height: 63vh;
 }
 
 /*general css avalible for all pages*/
@@ -318,6 +319,9 @@ body {
   display: none;
 }
 @media only screen and (max-width: 1200px) {
+  .navigation {
+    margin-bottom: 10px;
+  }
   .burger {
     display: inline-block;
     border: 0;

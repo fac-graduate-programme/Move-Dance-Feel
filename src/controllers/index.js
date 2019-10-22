@@ -3,30 +3,18 @@ const router = require('express').Router();
 const error = require('./error');
 const home = require('./home');
 const about = require('./about');
-const events = require('./events');
-// const currentEvent = require('./events');
-const support = require('./support');
-const research = require('./research');
-const downloads = require('./downloads');
-// const volunteer = require('./volunteer');
-// const volunteerForm = require('./volunteerForm');
 const contact = require('./contact');
+const generic = require('./generic');
+
 
 router.get('/', home.get);
 router.get('/about', about.get);
-router.get('/events', events.get);
-// router.get('/current-events', currentEvent.get);
-router.get('/support', support.get);
-router.get('/research', research.get);
-router.get('/downloads', downloads.get);
-// router.get('/contact', contact.get);
-// router.get('/volunteer', volunteer.get);
-// router.post('/volunteer-form', volunteerForm.post);
-
 router.post('/contact', contact.post);
 router.get('/contact', contact.get);
-// router.post('/contact-us', postContactUs);
-router.use(error.client);
+
+// generic router and 404
+router.get('/:endpoint', generic.get);
+
 router.use(error.server);
 
 module.exports = router;

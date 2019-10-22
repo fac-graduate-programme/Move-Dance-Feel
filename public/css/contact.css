@@ -14,9 +14,10 @@
 }
 .radio-input {
   display: grid;
-  margin-left: 46%;
+  margin: auto;
   font-size: 20px;
   margin-top: -41px;
+  width: fit-content;
 }
 .option span {
   margin-left: 15px;
@@ -79,7 +80,7 @@
   width: 142%;
 }
 .contact--contactUs-formSubmit {
-  border: 1px solid #4f7481;
+  border: 1px solid #719cab;
   text-transform: uppercase;
   color: #4f7481;
   background: none;
@@ -88,6 +89,7 @@
   border-radius: 0;
   padding: 0.8rem !important;
   width: 17%;
+  min-width: 90px;
 }
 .contact--contactUs-formSubmit:hover {
   background: #719cab;
@@ -173,4 +175,29 @@
 .error-message span {
   margin-top: -112px;
   margin-left: 348px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact--container-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .contact--container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .check-button {
+    display: flex;
+    flex-direction: row;
+  }
+  div input {
+    margin-right: 20px;
+    margin: 5px;
+  }
+  .contact--container-row input {
+    width: 110%;
+  }
 }
