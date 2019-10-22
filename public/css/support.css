@@ -107,3 +107,38 @@
   background: #000000;
   z-index: -1;
 }
+
+@media only screen and (max-width:1300px){
+  .support_timeline::before {
+    top: 12%;
+    bottom: 11%;
+  }
+}
+
+@media only screen and (max-width:1200px){
+  .support_timeline::before {
+    top: 11%;
+    bottom: 11%;
+  }
+}
+
+@media only screen and (max-width:1075px){
+  .support_timeline::before {
+    top: 8%;
+    bottom: 8%;
+  }
+}
+
+@media only screen and (max-width:830px){
+  .support_timeline::before {
+    top: 7%;
+    bottom: 7%;
+  }
+}
+
+@media only screen and (max-width:750px){
+  .support_timeline::before {
+    top: 6%;
+    bottom: 6%;
+  }
+}
