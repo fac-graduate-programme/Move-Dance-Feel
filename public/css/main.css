@@ -1,5 +1,5 @@
 .section {
-  margin-top: 160px;
+  margin-top: 160px; 
   min-height: 63vh;
 }
 
@@ -25,7 +25,7 @@ body {
   display: block;
   line-height: 22px;
   font-size: xx-large;
-  font-size: 50px;
+  font-size: 75px;
 }
 .heading-title h1::after .heading-title h2::after {
   background: #b1c9c5 none repeat scroll 0 0;
