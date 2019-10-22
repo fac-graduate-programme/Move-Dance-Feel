@@ -9,7 +9,7 @@
   box-sizing: border-box;
   direction: ltr;
   font-size: 100%;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -19,20 +19,22 @@ body {
   margin-bottom: 70px;
   text-align: center;
 }
-.heading-title h1, .heading-title h2  {
+.heading-title h1,
+.heading-title h2 {
   display: block;
   line-height: 22px;
   font-size: xx-large;
   font-size: 50px;
 }
-.heading-title h1::after .heading-title h2::after{
+.heading-title h1::after .heading-title h2::after {
   background: #b1c9c5 none repeat scroll 0 0;
-  content: ' ';
+  content: " ";
   display: inline-block;
   height: 2px;
   width: 70px;
 }
-.heading-title h1 span, .heading-title h2 span {
+.heading-title h1 span,
+.heading-title h2 span {
   display: block;
   line-height: 1;
 }
@@ -40,14 +42,13 @@ body {
 /* end heading style */
 
 @font-face {
-  font-family: 'Quentin';
-  src: url('../assets/Quentin.ttf') format('truetype');
+  font-family: "Quentin";
+  src: url("../assets/Quentin.ttf") format("truetype");
 }
 
-.subheading_font{
+.subheading_font {
   font-family: "Quentin";
   font-weight: 550;
-  
 }
 
 /*start style of footer section*/
@@ -86,9 +87,9 @@ body {
   margin-bottom: 35px;
 }
 .footer__container .copyright {
-  color: #434546;
- width: 100%;
- text-align: center;
+  color: #ad9f9f;
+  width: 100%;
+  text-align: center;
 }
 .footer__container-right {
   display: flex;
@@ -96,15 +97,14 @@ body {
   justify-content: space-evenly;
   height: 121px;
   padding-right: 5%;
-
 }
 .flex {
   display: flex;
 }
 .flex p {
-  color: #636363;
+  color: #ad9f9f;
   padding-left: 22px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
 .flex i {
@@ -113,7 +113,7 @@ body {
   margin: -2px 1px 6px 6px;
 }
 
-@media only screen and (max-width:575px){
+@media only screen and (max-width: 575px) {
   .footer__container {
     flex-direction: column;
     align-items: center;
@@ -274,7 +274,7 @@ body {
 .slider-pargraph {
   color: #898989;
   text-align: -webkit-center;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-size: 25px;
   width: 38%;
 }
@@ -301,7 +301,7 @@ body {
 }
 
 .navbar-link {
-  font-family: 'Kite One';
+  font-family: "Kite One";
   margin: 0 15px;
   color: black;
   text-decoration: none;
@@ -313,76 +313,77 @@ body {
 }
 
 /* burger menu */
-.burger, .navbar input {
+.burger,
+.navbar input {
   display: none;
 }
-@media only screen and (max-width:1200px){
-.burger {
-  display: inline-block;
-  border: 0;
-  background: none;
-  outline: 0;
-  padding: 0;
-  cursor: pointer;
-  border-bottom: 4px solid currentColor;
-  width: 35px;
-  margin: 20px;
-  transition: border-bottom 1s ease-in-out;
-  -webkit-transition: border-bottom 1s ease-in-out;
-}
-.burger::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-.burger:before {
-  content: "";
-  display: block;
-  border-bottom: 4px solid currentColor;
-  width: 100%;
-  margin-bottom: 5px;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.burger:after {
-  content: "";
-  display: block;
-  border-bottom: 4px solid currentColor;
-  width: 100%;
-  margin-bottom: 5px;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.burger-check {
-  display: none;
-}
-.burger-check:checked ~ .burger {
-  border-bottom: 4px solid transparent;
-  transition: border-bottom 0.8s ease-in-out;
-  -webkit-transition: border-bottom 0.8s ease-in-out;
-}
-.burger-check:checked ~ .burger:before {
-  transform: rotate(-405deg) translateY(1px) translateX(-3px);
-  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.burger-check:checked ~ .burger:after {
-  transform: rotate(405deg) translateY(-4px) translateX(-5px);
-  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.navigation {
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.5s ease-in-out;
-}
-.burger-check:checked ~ .navigation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 500px;
-  width: 100%;
-  transition: max-height 0.5s ease-in-out;
-}
+@media only screen and (max-width: 1200px) {
+  .burger {
+    display: inline-block;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 4px solid currentColor;
+    width: 35px;
+    margin: 20px;
+    transition: border-bottom 1s ease-in-out;
+    -webkit-transition: border-bottom 1s ease-in-out;
+  }
+  .burger::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  .burger:before {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger:after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger-check {
+    display: none;
+  }
+  .burger-check:checked ~ .burger {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+  }
+  .burger-check:checked ~ .burger:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger-check:checked ~ .burger:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .navigation {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+  }
+  .burger-check:checked ~ .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+    width: 100%;
+    transition: max-height 0.5s ease-in-out;
+  }
 }

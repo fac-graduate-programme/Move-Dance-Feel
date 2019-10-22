@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: url('/assets/images/home-top.png');
+  background: url("/assets/images/home-top.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -48,7 +48,7 @@ header-video {
   position: absolute;
   left: 3%;
   bottom: 35%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   font-size: 2rem;
   background: rgba(255, 255, 255, 0.7);
   width: 450px;
@@ -63,21 +63,20 @@ header-video {
   margin-top: 80px;
 }
 
-@media only screen and (max-width:1200px){
-  .top-section{
-    margin-top: 100px; 
+@media only screen and (max-width: 1200px) {
+  .top-section {
+    margin-top: 100px;
   }
-  .top-section-text{
-    display: none
+  .top-section-text {
+    display: none;
   }
-  .top-section{
+  .top-section {
     height: 60vw;
   }
   .who-we-are-section {
     padding-top: 0;
     margin-top: 30px;
   }
-  
 }
 
 .who-content {
@@ -115,14 +114,14 @@ header-video {
   margin: 10px;
 }
 
-@media only screen and (max-width:700px){
-  .who-content img{
+@media only screen and (max-width: 700px) {
+  .who-content img {
     display: none;
   }
-  .who-content{
+  .who-content {
     flex-direction: column;
   }
-  .who-content-div{
+  .who-content-div {
     width: 100%;
   }
 }
@@ -133,7 +132,7 @@ header-video {
 .testemonial {
   display: flex;
   flex-direction: column;
-  background: url('../assets/images/testemonial.png') no-repeat center / cover;
+  background: url("../assets/images/testemonial.png") no-repeat center / cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,7 +152,8 @@ header-video {
   background-color: #143a48;
 }
 
-.testemonial .heading-title, .testemonial-desc{
+.testemonial .heading-title,
+.testemonial-desc {
   z-index: 2;
 }
 .testemonial-desc {
@@ -166,7 +166,7 @@ header-video {
 }
 .test-item-container {
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   width: 100%;
 }
 .item {
@@ -175,7 +175,7 @@ header-video {
 .testemonial .test-info {
   background-color: #b1c9c5;
   padding: 20px 10px;
-  color: #fff;
+  color: rgb(85, 76, 76);
   display: block;
   height: 400px;
   width: 311px;
@@ -242,25 +242,22 @@ header-video {
 }
 
 .cards-info-img1 {
- background-image: url("../assets/images/1.png");
- background-size: cover;
- background-repeat: no-repeat;
-
-
+  background-image: url("../assets/images/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.cards-info-img2{
+.cards-info-img2 {
   background-image: url("../assets/images/2.jpg");
   background-size: auto 100%;
   background-position: center;
- background-repeat: no-repeat;
- 
+  background-repeat: no-repeat;
 }
 .overlay {
   background-color: rgba(234, 225, 225, 0.7);
 }
 .overlay p {
   color: #912f00;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-size: 16px;
   text-align: -webkit-center;
   margin: 20px;
@@ -278,7 +275,7 @@ header-video {
   font-size: 26px;
   padding: 10px 10px;
   color: #912f00;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   line-height: 22px;
 }
 
@@ -288,15 +285,15 @@ header-video {
   max-width: 700px;
   text-align: -webkit-left;
   margin: 10px auto;
-  color: #f7f0f0;
-  font-family: 'Kite One', sans-serif;
+  color: rgb(85, 76, 76);
+  font-family: "Kite One", sans-serif;
 }
 
 .partener a {
   background: #ffffff none repeat scroll 0 0;
   color: #912f00;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
   margin-top: 1px;
