@@ -7,16 +7,15 @@
   text-align: -webkit-center;
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
 }
 .events-details > a,
 .center-events-details > a {
   font-size: 25px;
   display: inline;
   font-weight: bold;
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   color: #000000;
-
 }
 .events-content {
   display: flex;
@@ -26,7 +25,7 @@
 }
 .events-details,
 .center-events-details {
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   margin-bottom: 0px;
   margin-top: 2%;
   width: 500px;
@@ -36,16 +35,16 @@
 .center-events-details p {
   padding-top: 10px;
   font-size: 16px;
-  font-family: 'Kite One', sans-serif;
-  color: #3a3838;
+  font-family: "Kite One", sans-serif;
+  color: rgb(85, 76, 76);
 }
 .events-details span,
 .center-events-details span {
   display: block;
   font-size: 18px;
   padding-top: 10px;
-  color: #928d8d;
-  font-family: 'Kite One', sans-serif;
+  color: #000000;
+  font-family: "Kite One", sans-serif;
 }
 .center-events-details {
   margin: 20px auto;
@@ -85,20 +84,20 @@
   margin: 10px auto;
   min-height: 350px;
 }
-#left-video-div{
+#left-video-div {
   flex-wrap: wrap-reverse;
 }
 
-#left-video-div .session-content-text{
+#left-video-div .session-content-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center; 
+  justify-content: center;
 }
 .right-video {
   width: 50%;
   min-width: 500px;
-  min-height: 400px
+  min-height: 400px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -110,12 +109,11 @@
   }
 }
 @media only screen and (max-width: 590px) {
-  .events-details{
+  .events-details {
     padding: 20px;
   }
 }
 @media only screen and (max-width: 530px) {
- 
   .right-video {
     width: 80%;
     min-width: 300px;

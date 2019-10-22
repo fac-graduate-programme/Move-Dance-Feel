@@ -1,57 +1,54 @@
-.research_section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    width: 85%;
-    margin: auto;
-
+.research_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  width: 85%;
+  margin: auto;
 }
 
-.research_section p, .research_intro {
-    font-family: "Kite one";
-    font-size: 16px;
-    margin: 60px auto;
-    max-width: 75%;
- 
+.research_section p,
+.research_intro {
+  font-family: "Kite one";
+  font-size: 16px;
+  margin: 60px auto;
+  max-width: 75%;
 }
 
 .research_intro {
-    margin: 80px auto;
-    width: 85%;
-    margin-top: 0;
+  margin: 80px auto;
+  width: 85%;
+  margin-top: 0;
 }
 
 .research_paragraph a {
-    color: #000000;
+  color: #000000;
 }
-.research_paragraph .research_quotee{
-    margin-top: -20px;
-    font-size: 14px;
-    text-align: right;
+.research_paragraph .research_quotee {
+  margin-top: -20px;
+  font-size: 14px;
+  text-align: right;
 }
 
 .research_paragraph .research_quote {
-    margin-top: 20px;
-   font-weight: bold;
-   color: #999A9E;
-   font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(85, 76, 76);
+  font-size: 16px;
 }
 
-
-
-.research_subheading{
-    margin: 10px auto; 
-    font-size: 25px;
-    font-family: "Kite one";
-    font-weight: bold;
-    text-align: center;
+.research_subheading {
+  margin: 10px auto;
+  font-size: 25px;
+  font-family: "Kite one";
+  font-weight: bold;
+  text-align: center;
 }
 
-@media only screen and (max-width:780px){
-    .subheading2{
-        grid-row-start: 3;
-    }
-    .research_section{
-        grid-template-columns: 1fr;
-    }
+@media only screen and (max-width: 780px) {
+  .subheading2 {
+    grid-row-start: 3;
+  }
+  .research_section {
+    grid-template-columns: 1fr;
+  }
 }
