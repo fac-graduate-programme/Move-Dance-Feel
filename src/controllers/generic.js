@@ -24,7 +24,7 @@ exports.get = (req, res) => {
       title: seo[position],
     });
   } else {
-    res.render('error', {
+    res.status(404).render('error', {
       status: 404,
       errorMessage: 'Page Not Found',
     });
