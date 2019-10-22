@@ -45,27 +45,17 @@ header-video {
   z-index: 1;
 }
 
-/* .top-section-text {
-  position: absolute;
-  left: 3%;
-  bottom: 35%;
-  font-family: 'Kite One';
-  font-size: 2rem;
-  background: rgba(255, 255, 255, 0.7);
-  width: 450px;
-  padding: 10px;
-  color: #912f00;
-  z-index: 5;
-} */
+
 .top-section-text .top-title{
   position: absolute;
   left: 27%;
   bottom: 61%;
   font-family: garamond-premier-pro-display;
   font-size: 73px;
-  color: #224d5d;
+  color: #104052;
   line-height: 1em;
   font-weight: 400;
+  z-index: 5;
 }
 .top-section-text p{
   position: absolute;
@@ -73,23 +63,25 @@ header-video {
   bottom: 42%;
   font-family: garamond-premier-pro-display;
   font-size: 38px;
-  color: #224d5d;
+  color: #104052;
   line-height: 1em;
   font-weight: 400;
+  z-index: 5;
 }
 .top-button{
   position: absolute;
-  left: 44%;
+  left: 42%;
   bottom: 25%;
   background: #fff;
   color:  #093848;
-  font-size: 15px;
+  font-size: 18px;
   padding: 21px 63px;
   font-family: Didact Gothic;
   text-decoration: none;
   letter-spacing: 1.98px;
   margin: -51px 0;
   line-height: 1em;
+  z-index: 5;
 }
 .top-button:hover{
   background: #093848;
