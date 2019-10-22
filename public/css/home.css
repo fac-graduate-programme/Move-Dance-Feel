@@ -213,14 +213,14 @@ header-video {
   margin: 60px auto;
 }
 .work-with-content-div img {
-  width: 20vw;
-  height: 14vw;
+  width: 15vw;
+  height: 12vw;
   min-width: 200px;
   min-height: 130px;
   margin: 10px;
 }
 .work-with-content-div .work-with-content-image {
-  height: 9vw;
+  height: 7vw;
   min-height: 85px;
 }
 /* end work-with-section style  */

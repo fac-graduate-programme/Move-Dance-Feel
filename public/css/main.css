@@ -321,7 +321,7 @@ body {
 .burger, .navbar input {
   display: none;
 }
-@media only screen and (max-width:1220px){
+@media only screen and (max-width:1280px){
 .burger {
   display: inline-block;
   border: 0;
@@ -364,7 +364,7 @@ body {
 .navigation {
   margin-bottom: 10px;
 }}
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1280px) {
  
   .burger {
     display: inline-block;
