@@ -318,14 +318,54 @@ body {
 }
 
 /* burger menu */
-.burger,
-.navbar input {
+.burger, .navbar input {
   display: none;
 }
-@media only screen and (max-width: 1200px) {
-  .navigation {
-    margin-bottom: 10px;
-  }
+@media only screen and (max-width:1220px){
+.burger {
+  display: inline-block;
+  border: 0;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 4px solid currentColor;
+  width: 35px;
+  margin: 20px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.burger:before {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check {
+  display: none;
+}
+
+.navigation {
+  margin-bottom: 10px;
+}}
+@media only screen and (max-width: 1220px) {
+ 
   .burger {
     display: inline-block;
     border: 0;
