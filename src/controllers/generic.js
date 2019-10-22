@@ -25,8 +25,8 @@ exports.get = (req, res) => {
     });
   } else {
     res.render('error', {
-      status: 404,
-      errorMessage: 'Page Not Found',
+      status: '404 Page Not Found.',
+      errorMessage: 'We can not find the page you are looking for. You might have mistyped the address or the page has moved. Make sure you have the right link.',
     });
   }
 };
