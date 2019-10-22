@@ -14,9 +14,10 @@
 }
 .radio-input {
   display: grid;
-  margin-left: 46%;
+  margin: auto;
   font-size: 20px;
   margin-top: -41px;
+  width: fit-content;
 }
 .option span {
   margin-left: 15px;
