@@ -40,6 +40,65 @@ body {
 
 /* end heading style */
 
+/* social media style */
+.icon-float{
+  position: fixed;
+  left: 0px;
+  top: 35%;
+  z-index: 999;
+}
+.icon-float ul{
+  padding:0px;
+}
+.icon-float ul li{
+  list-style-type:none;
+
+}
+
+.icon-float ul li a {
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 0px;
+}
+
+
+.icon-float ul li a i {
+  padding: 8px;
+  width: 40px;
+  height: 32px;
+  text-align: center;
+  color: #fff;
+}
+.icon-float ul li a:hover {
+  transform: rotateY(-180deg);
+}
+
+.icon-float ul li a:hover i {
+  transform: rotateY(180deg);
+}
+.wat{
+  background: #34af23;
+}
+
+.fb1{
+  background: #3b5998;
+
+}
+.twt{
+  background:#1da1f2;
+}
+.gemail{
+  background:  #D44638;
+}
+.inst{
+  background: #E1306C;
+}
+
+
+/* social media */
 @font-face {
   font-family: 'Quentin';
   src: url('../assets/Quentin.ttf') format('truetype');
