@@ -294,23 +294,54 @@ body {
   background-color: #fff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
+  height: 85px;
+  padding: 20px 25px;
 }
 
 .navbar-logo {
-  width: 200px;
-  margin: 10px;
+  max-height: 64%;
+  top: 15%;
+  position: absolute;
+  opacity: 0.5;
+  width: 218px; 
 }
 
 .navbar-link {
-  font-family: 'Kite One';
-  margin: 0 15px;
-  color: black;
+  /* margin: 0 15px; */
+  color: #a0a0a0;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 27px !important;
+  padding-left: 15px !important;
+  letter-spacing: 2px;
+  font-family: Didact Gothic;
+}
+.contact-button{
+  background: #719cab;
+  color: #fff;
+  padding: 20px;
+  font-family: Didact Gothic;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.11px;
+  text-transform: none;
+  text-decoration: none;
+  padding: 1em 1.5em !important;
 }
 
-.navbar .navigation a:hover {
-  color: #912f00;
+
+.navbar-link:hover {
+  color: #719cab;
+  font-weight: 600;
+}
+
+.contact-button:hover{
+  opacity: 0.9;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* burger menu */
