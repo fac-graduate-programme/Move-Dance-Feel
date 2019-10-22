@@ -89,6 +89,7 @@
   border-radius: 0;
   padding: 0.8rem !important;
   width: 17%;
+  min-width: 90px;
 }
 .contact--contactUs-formSubmit:hover {
   background: #719cab;
