@@ -1,10 +1,8 @@
 document.onscroll = () => {
   const nav = document.querySelector('#navbar');
   console.log("test", this.scrollY)
-  if(this.scrollY <= 800) {nav.style.backgroundColor = "rgba(255, 255, 255, 0.0)"; nav.style.boxShadow = "none"}else {nav.style.backgroundColor = "#fff"; nav.style.boxShadow = "0px 2px 2px rgba(0, 0, 0, 0.2)"};
+  if(this.scrollY <= 800) {nav.style.backgroundColor = "rgba(255, 255, 255, 0.0)"; }else {nav.style.backgroundColor = "#fff"; };
 };
-
-// Start of slider code
 let slideIndex = 1;
 // eslint-disable-next-line no-use-before-define
 showSlides(slideIndex);
@@ -24,7 +22,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   const slides = document.getElementsByClassName('slider-image');
-
+  const dots = document.getElementsByClassName('demo');
 
   if (n > slides.length) { slideIndex = 1; }
   if (n < 1) { slideIndex = slides.length; }
@@ -33,6 +31,10 @@ function showSlides(n) {
     slides[i].style.display = 'none';
   }
   // eslint-disable-next-line no-plusplus
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(' active', '');
+  }
+  // eslint-disable-next-line no-plusplus
   slides[slideIndex - 1].style.display = 'block';
-
+  dots[slideIndex - 1].className += ' active';
 }

@@ -3,6 +3,11 @@
   padding: 32px;
   margin-top: 25px;
 }
+
+.heading-title.location-heading{
+  margin-top: 60px;
+}
+
 .events > h1 {
   text-align: -webkit-center;
   font-size: 25px;
@@ -19,16 +24,18 @@
 }
 .events-content {
   display: flex;
+  flex-direction: column;
   margin: 2vw;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
 }
 .events-details,
 .center-events-details {
   font-family: "Optima", sans-serif;
   margin-bottom: 0px;
   margin-top: 2%;
-  width: 500px;
+  max-width: 760px;
+  /* width: 500px; */
 }
 
 .events-details p,
@@ -36,21 +43,21 @@
   padding-top: 10px;
   font-size: 16px;
   font-family: "Optima", sans-serif;
-  color: rgb(85, 76, 76);
 }
+
 .events-details span,
 .center-events-details span {
   display: block;
   font-size: 18px;
   padding-top: 10px;
-  color: #000000;
+  color: rgb(85, 76, 76);
   font-family: "Optima", sans-serif;
 }
 .center-events-details {
   margin: 20px auto;
   width: fit-content;
-  padding: 40px;
-  max-width: 600px;
+  padding-top: 40px;
+  max-width: 760px;
 }
 
 .events-details,
@@ -73,7 +80,7 @@
   font-size: 16px;
   color: #6f6d6d;
   padding: 10px;
-  width: 90%;
+  width: 100%;
 }
 
 .right-video-div {
@@ -91,7 +98,6 @@
 #left-video-div .session-content-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
 }
 .right-video {
