@@ -1,7 +1,8 @@
 /* Navbar specific for home page */
 
 #navbar {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.0);
+  box-shadow: none;
 }
 .top-section {
   width: 100vw;
@@ -46,12 +47,12 @@ header-video {
 
 .top-section-text {
   position: absolute;
-  left: 3%;
-  bottom: 35%;
+  left: 2%;
+  bottom: 1%;
   font-family: "Optima";
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.7);
-  width: 450px;
+  /* background: rgba(255, 255, 255, 0.7); */
+  width: 600px;
   padding: 10px;
   color:  #104052;
   z-index: 5;
