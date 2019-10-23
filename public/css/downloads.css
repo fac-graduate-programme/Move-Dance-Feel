@@ -1,5 +1,3 @@
-
-
 .pdf {
   display: flex;
   flex-direction: column;
@@ -7,7 +5,7 @@
 }
 .pdf_viewer {
   margin: auto;
-  width: 85%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -18,7 +16,7 @@
   margin: 40px auto;
   margin-top: 0;
   align-items: center;
-  width: 85%;
+  width: 80%;
 }
 
 .download_paragraph {
