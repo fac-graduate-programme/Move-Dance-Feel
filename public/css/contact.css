@@ -12,6 +12,10 @@
   padding-left: 20%;
   font-family: "Kite One", sans-serif;
 }
+.first-pargraph{
+  color: #719cab !important;
+  font-size: 1.3rem !important;
+}
 .radio-input {
   display: grid;
   margin: auto;
