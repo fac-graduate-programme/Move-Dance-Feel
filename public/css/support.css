@@ -13,8 +13,14 @@
   color: #ffffff;
   margin: 1em;
   font-family: "Kite One", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.3em;
   text-decoration: none;
+}
+.support_volunteer_button:hover{
+  color: #59899b;
+  background-color: #fff;
+  border: 1px solid #59899b;
+
 }
 
 .support_volunteer {
@@ -29,6 +35,8 @@
 .support_volunteer .after_intro {
   width: 80%;
   max-width: 450px;
+  color: #6f6d6d;
+  font-size: 18px;
 }
 .support_volunteer_intro {
   width: 100%;
@@ -36,14 +44,28 @@
   text-align: center;
   margin-bottom: 40px;
 }
+.first-pargraph{
+  color: #719cab !important;
+  display: block;
+  font-size: 25px !important;
+  text-align: center;
+}
+
 .support_volunteer_intro p {
   width: 85%;
-  margin: 10px auto;
+  margin: 25px auto;
+  color: #6f6d6d;
+  font-size: 18px;
+}
+.support_volunteer_intro b{
+  color: #16495c;
 }
 
 .support_volunteer_end {
   width: 85%;
   margin: 40px auto;
+  color: #6f6d6d;
+  font-size: 18px;
 }
 
 /* Timeline CSS */
@@ -57,7 +79,10 @@
 }
 
 .support_timeline a {
-  color: #000000;
+  color: #719cab;
+}
+.top{
+  margin-top: -211px;
 }
 
 .timeline_content {
@@ -79,6 +104,11 @@
   transform: none;
   visibility: visible;
   opacity: 1;
+  color: #6f6d6d;
+  font-size: 18px;
+}
+.timeline_content.in-view span{
+color: #16495c;
 }
 .animationy:hover{
   transform: translate(50px, 100px);
