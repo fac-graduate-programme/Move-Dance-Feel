@@ -80,12 +80,16 @@
   visibility: visible;
   opacity: 1;
 }
+.animationy:hover{
+  transform: translate(50px, 100px);
+
+} 
 
 .support_timeline-center {
   display: inline-block;
   align-self: center;
   justify-self: center;
-  width: 30px;
+  width: 46px;
 }
 
 .support_timeline::before {
@@ -93,12 +97,12 @@
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  top: 13%;
-  bottom: 13%;
-  content: " ";
+  top: 16%;
+  bottom: 16%;
+  content: ' ';
   position: absolute;
   width: 2px;
-  background: #000000;
+  background: #ccc;
   z-index: -1;
 }
 
