@@ -20,12 +20,13 @@
 
 .about-us-h3{
     margin-top: 80px;
-    color: #000000;
+    color: #719cab;
     display: block;
     font-size: 25px;
     font-weight: 300;
     padding-left: 5vw;
     padding-right: 5vw;
+    text-align: center;
 }
 
 .about-us-content-div{
@@ -49,8 +50,9 @@
 
 .left-paragraph{
     margin-top: 20px;
-    color: #912F00;
-    font-size: 25px;
+    color: #6f6d6d;
+    font-size: 20px;
+    text-align: center;
     width: 80%;
 }
 
@@ -60,9 +62,10 @@
 } 
 
 .main-paragraph{
-    font-size: 16px;
+    font-size: 18px;
     width: 75%;
   margin: auto;
+  color: #6f6d6d;
 }
 
 @media only screen and (max-width:1300px){
@@ -102,11 +105,7 @@
     margin: 10px;
 }
 
-.event_section p {
-  display: inline;
-  font-family: 'Kite one';
-  font-size: 16px;
-}
+
 
 .event_section ul {
   list-style: none;
@@ -116,11 +115,23 @@
 }
 
 .event_date {
-  font-weight: bold;
+    font-family: 'Kite one';
+    font-weight: bold;
+    color: #719cab;
+    padding-right: 15px;
+    display: block;
+    margin-top: 25px;
 }
+.event_details{
+    display: inline;
+    font-family: 'Kite one';
+    font-size: 18px;
+    color: #6f6d6d;
+  }
 
 .event_link {
-  color: #000000;
   font-weight: bold;
   font-family: 'Kite one';
+  color: #719cab;
+
 }
