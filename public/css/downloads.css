@@ -180,10 +180,13 @@
 
 .download_paragraph {
   font-family: 'Kite One', sans-serif;
-  font-size: 16px;
-  width: 40%;
+  font-size: 20px;
+  width: 44%;
+  min-width: 300px;
+  color: #6f6d6d;
   min-width: 300px;
 }
+
 
 .download_button {
   text-decoration: none;
@@ -195,6 +198,11 @@
   font-family: 'Kite One', sans-serif;
   border-radius: 10px;
   margin-top: 10px;
+}
+.download_button:hover{
+  background-color: #fff;
+  color: #28a745;
+  border: 1px solid #28a745;
 }
 
 .pdf_viewer img {
