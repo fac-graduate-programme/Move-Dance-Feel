@@ -135,3 +135,8 @@
   color: #719cab;
 
 }
+.event_link:hover{
+    color: #16495c;
+    font-weight: 800;
+  
+  }
