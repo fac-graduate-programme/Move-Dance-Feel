@@ -1,6 +1,8 @@
 /* start carausel style */
 
 .CSSgal {
+    width: 80%;
+    margin: auto;
     position: relative;
     overflow: hidden;
     height: 100%;
@@ -21,7 +23,7 @@
   
   .slider img {
     width: 32.33%;
-    height: 430px;
+    /* height: 430px; */
   }
   
   /* SLIDES */
@@ -31,7 +33,7 @@
     display: inline-block;
     white-space: normal;
     vertical-align: middle;
-    height: 500px;
+    height: 20vw;
     width: 100%;
     background: none 50% no-repeat;
     background-size: cover;
@@ -162,7 +164,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    width: 95%;
+    width: 80%;
     margin: auto;
   }
 
