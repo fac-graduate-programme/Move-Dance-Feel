@@ -7,9 +7,20 @@ const compression = require('compression');
 const controllers = require('./controllers');
 
 const app = express();
-app.set('port', process.env.PORT || 7000);
+
+const middleware = [
+  helmet(),
+  compression(),
+  bodyParser.urlencoded({ extended: false }),
+  bodyParser.json(),
+];
+app.use(middleware);
+
 app.disable('x-powered-by');
+
+app.set('port', process.env.PORT || 7000);
 app.set('views', path.join(__dirname, 'views'));
+
 app.engine('hbs',
   exphbs({
     extname: 'hbs',
@@ -18,15 +29,9 @@ app.engine('hbs',
     partialsDir: path.join(__dirname, 'views', 'partials'),
     defaultLayout: 'main',
   }));
+
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
-const middleware = [
-  helmet(),
-  compression(),
-  bodyParser.urlencoded({ extended: false }),
-  bodyParser.json(),
-];
-app.use(middleware);
 app.use(controllers);
 
 module.exports = app;

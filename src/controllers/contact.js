@@ -31,8 +31,10 @@ exports.post = async (req, res) => {
     help3,
   } = req.body;
 
+  //create array for email mesg template
   const int = [{ topic: int1 }, { topic: int2 }, { topic: int3 }];
   const help = [{ topic: help1 }, { topic: help2 }, { topic: help3 }];
+
   const data = {
     username: name,
     useremail: email,
@@ -46,8 +48,8 @@ exports.post = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: emailENV, // emily email
-        pass: password, // pass of emily
+        user: emailENV, 
+        pass: password, 
       },
     });
     const filePath = path.join(
@@ -59,6 +61,7 @@ exports.post = async (req, res) => {
       'contact.html',
     );
 
+    // read and populate email mesg template
     const template = fs.readFileSync(filePath, 'utf-8');
     // eslint-disable-next-line camelcase
     const html_email = MUSTACHE.render(template, data);
@@ -66,7 +69,7 @@ exports.post = async (req, res) => {
     await transporter.sendMail(
       {
         from: 'MDF user',
-        to: emailENV, // emliy email
+        to: emailENV, // Change to MDF email
         subject: 'move dance booking',
         html: html_email,
 
