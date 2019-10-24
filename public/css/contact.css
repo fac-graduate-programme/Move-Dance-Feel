@@ -118,6 +118,33 @@
 .contact--container-right {
   margin-top: 0%;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .contact--container-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .contact--container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .check-button {
+    display: flex;
+    flex-direction: row;
+  }
+  div input {
+    margin-right: 20px;
+    margin: 5px;
+  }
+  .contact--container-row input {
+    width: 110%;
+  }
+}
+
 /* POPUP STYLE */
 .popup {
   position: fixed;
@@ -172,7 +199,8 @@
   border-radius: 5px;
   border: none;
 }
-/* POPUP STYLE */
+/* ERROR STYLE */
+
 .error-message {
   margin-top: -28px;
 }
@@ -181,27 +209,3 @@
   margin-left: 348px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .contact--container-row {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 625px) {
-  .contact--container {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .check-button {
-    display: flex;
-    flex-direction: row;
-  }
-  div input {
-    margin-right: 20px;
-    margin: 5px;
-  }
-  .contact--container-row input {
-    width: 110%;
-  }
-}
