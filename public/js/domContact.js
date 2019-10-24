@@ -4,6 +4,7 @@ const popupMassage = document.querySelector(".popup--content-message");
 const poppUpDone = document.querySelector(".popup--content-Done");
 const textarea = document.querySelector(".contactUs--formMessage");
 const errorMessage = document.querySelector(".error-message-span");
+const popupButton = document.getElementById('popup-button')
 
 function show2() {
   document.getElementById("booking").style.display = "block";
@@ -53,6 +54,7 @@ document.addEventListener(
               "We have received your message, we will be in touch soon.";
           } else if (res.msg === "not done") {
             popup.classList.add("popup-show");
+            popupButton.value = "Please retry"
             popupMassage.textContent =
               "An error has occured, either enternet connection or server error. Please try again later.";
           }
