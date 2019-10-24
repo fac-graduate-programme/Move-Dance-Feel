@@ -115,18 +115,6 @@ header-video {
   margin: 10px;
 }
 
-@media only screen and (max-width: 700px) {
-  .who-content img {
-    display: none;
-  }
-  .who-content {
-    flex-direction: column;
-  }
-  .who-content-div {
-    width: 100%;
-  }
-}
-
 /* end who we are style */
 
 /* start testemonial style */
@@ -199,6 +187,34 @@ header-video {
   margin-top: 8%;
   width: 216px;
   margin: auto;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .CSSgal .slider > * {
+    height: 30vw;
+  }
+  .CSSgal .slider img {
+    width: 48%;
+    /* height: 430px; */
+  }
+  .CSSgal .slider-img-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .CSSgal .slider > * {
+    height: 50vw;
+  }
+  .CSSgal .slider img {
+    width: 100%;
+    /* height: 430px; */
+  }
+  .CSSgal .slider-img-2 {
+    display: none;
+  }
 }
 /* end testemonial style */
 
@@ -350,11 +366,7 @@ header-video {
 
 /*end partener section */
 
-@media only screen and (max-width: 1000px) {
-  .CSSgal.slider-home {
-    display: none;
-  }
-}
+
 
 /* start carausel style */
 
@@ -362,7 +374,6 @@ header-video {
   position: relative;
   overflow: hidden;
   height: 100%;
-  margin-top: 73px;
   margin-bottom: 50px;
 }
 
@@ -379,7 +390,7 @@ header-video {
 
 .slider img {
   width: 32.33%;
-  /* height: 430px; */
+  display: block;
 }
 
 /* SLIDES */
