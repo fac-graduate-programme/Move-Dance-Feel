@@ -7,14 +7,14 @@
   font-size: 1.2rem;
   margin-top: -40px;
   color: #6f6d6d;
-  width: 80%;
+  width: 90%;
   padding-bottom: 68px;
-  padding-left: 20%;
+  padding-left: 10%;
   font-family: "Optima", sans-serif;
 }
-.radio-input-container{
+.radio-input-container {
   width: 80%;
- padding-left: 20%
+  padding-left: 10%;
 }
 .radio-input {
   display: grid;
@@ -38,6 +38,8 @@
 }
 .contact--container {
   display: flex;
+  position: relative;
+  right: 12%;
 }
 .contact--container-filed {
   display: grid;
