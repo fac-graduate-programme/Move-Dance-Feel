@@ -1,18 +1,18 @@
-const nodemailer = require("nodemailer");
-const path = require("path");
-const fs = require("fs");
-const MUSTACHE = require("mustache");
+const nodemailer = require('nodemailer');
+const path = require('path');
+const fs = require('fs');
+const MUSTACHE = require('mustache');
 
-require("env2")("./.env");
+require('env2')('./.env');
 
 const password = process.env.PASS;
 const emailENV = process.env.EMAIL;
 
 exports.get = (req, res) => {
-  res.render("contact", {
-    js: ["domContact"],
-    css: "contact",
-    title: "Move Dance Feel: Contact Us, Email"
+  res.render('contact', {
+    js: ['domContact'],
+    css: 'contact',
+    title: 'Move Dance Feel: Contact Us, Email',
   });
 };
 
@@ -28,7 +28,7 @@ exports.post = async (req, res) => {
     int3,
     help1,
     help2,
-    help3
+    help3,
   } = req.body;
 
   const int = [{ topic: int1 }, { topic: int2 }, { topic: int3 }];
@@ -39,45 +39,46 @@ exports.post = async (req, res) => {
     userexperince: experince,
     msg: message,
     userint: int,
-    userhelp: help
+    userhelp: help,
   };
 
   async function main() {
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      service: 'gmail',
       auth: {
         user: emailENV, // emily email
-        pass: password // pass of emily
-      }
+        pass: password, // pass of emily
+      },
     });
     const filePath = path.join(
       __dirname,
-      "..",
-      "..",
-      "public",
-      "html",
-      "contact.html"
+      '..',
+      '..',
+      'public',
+      'html',
+      'contact.html',
     );
 
-    const template = fs.readFileSync(filePath, "utf-8");
+    const template = fs.readFileSync(filePath, 'utf-8');
     // eslint-disable-next-line camelcase
     const html_email = MUSTACHE.render(template, data);
 
     await transporter.sendMail(
       {
-        from: "MDF user",
+        from: 'MDF user',
         to: emailENV, // emliy email
-        subject: "move dance booking",
-        html: html_email
-        // eslint-disable-next-line
+        subject: 'move dance booking',
+        html: html_email,
+
       },
+      // eslint-disable-next-line
       (error, info) => {
         if (error) {
-          res.status(500).send({ msg: "not done" });
+          res.status(500).send({ msg: 'not done' });
         } else {
-          res.status(200).send({ msg: "done" });
+          res.status(200).send({ msg: 'done' });
         }
-      }
+      },
     );
   }
   await main().catch(
