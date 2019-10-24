@@ -81,8 +81,6 @@ header-video {
   width: 100;
 }
 
-
-
 .who-content {
   display: flex;
   flex-direction: column;
@@ -128,9 +126,18 @@ header-video {
   }
   .who-content {
     flex-direction: column;
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .who-content-div {
     width: 100%;
+  }
+  .pargraph-left {
+    padding: 0;
+  }
+  .pargraph-right {
+    padding: 0;
   }
 }
 
@@ -207,8 +214,6 @@ header-video {
   width: 216px;
   margin: auto;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
   .CSSgal .slider > * {
@@ -384,8 +389,6 @@ header-video {
 }
 
 /*end partener section */
-
-
 
 /* start carausel style */
 
