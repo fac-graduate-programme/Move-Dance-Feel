@@ -115,7 +115,8 @@
   }
 }
 @media only screen and (max-width: 590px) {
-  .events-details {
+  .events-details,
+  .center-events-details {
     padding: 20px;
   }
 }

@@ -54,6 +54,8 @@ body {
 .subheading_font {
   font-family: "Quentin";
   font-weight: 550;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*start style of footer section*/
@@ -126,7 +128,6 @@ body {
 }
 /*end style of footer section*/
 
-
 /* navbar style */
 
 .navbar {
@@ -156,58 +157,59 @@ body {
 }
 
 .navbar .navigation a:hover {
-  color:  #104052;
+  color: #104052;
 }
 
 /* burger menu */
-.burger, .navbar input {
+.burger,
+.navbar input {
   display: none;
 }
-@media only screen and (max-width:1280px){
-.burger {
-  display: inline-block;
-  border: 0;
-  background: none;
-  outline: 0;
-  padding: 0;
-  cursor: pointer;
-  border-bottom: 4px solid currentColor;
-  width: 35px;
-  margin: 20px;
-  transition: border-bottom 1s ease-in-out;
-  -webkit-transition: border-bottom 1s ease-in-out;
-}
-.burger::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-.burger:before {
-  content: "";
-  display: block;
-  border-bottom: 4px solid currentColor;
-  width: 100%;
-  margin-bottom: 5px;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.burger:after {
-  content: "";
-  display: block;
-  border-bottom: 4px solid currentColor;
-  width: 100%;
-  margin-bottom: 5px;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-.burger-check {
-  display: none;
-}
-
-.navigation {
-  margin-bottom: 10px;
-}}
 @media only screen and (max-width: 1280px) {
- 
+  .burger {
+    display: inline-block;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 4px solid currentColor;
+    width: 35px;
+    margin: 20px;
+    transition: border-bottom 1s ease-in-out;
+    -webkit-transition: border-bottom 1s ease-in-out;
+  }
+  .burger::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  .burger:before {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger:after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger-check {
+    display: none;
+  }
+
+  .navigation {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1280px) {
   .burger {
     display: inline-block;
     border: 0;
