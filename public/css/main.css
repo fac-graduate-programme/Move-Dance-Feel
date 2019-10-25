@@ -95,7 +95,7 @@ body {
   margin-bottom: 35px;
 }
 .footer__container .copyright {
-  color: #ad9f9f;
+  color: rgb(85, 76, 76);
   width: 100%;
   text-align: center;
 }
@@ -110,7 +110,7 @@ body {
   display: flex;
 }
 .flex p {
-  color: #ad9f9f;
+  color: rgb(85, 76, 76);
   padding-left: 22px;
   font-size: 20px;
 }
