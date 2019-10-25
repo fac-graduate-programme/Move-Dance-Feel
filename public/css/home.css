@@ -229,8 +229,13 @@ header-video {
 }
 
 @media only screen and (max-width: 800px) {
+
+  .testemonial{
+    width: 100%;
+  }
   .CSSgal .slider > * {
     height: 50vw;
+
   }
   .CSSgal .slider img {
     width: 100%;

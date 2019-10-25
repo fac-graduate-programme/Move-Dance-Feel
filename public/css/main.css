@@ -146,6 +146,7 @@ body {
 .navbar-logo {
   width: 250px;
   margin: 10px;
+  max-width: 40vw;
 }
 
 .navbar-link {
