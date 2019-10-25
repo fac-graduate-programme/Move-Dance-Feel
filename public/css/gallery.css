@@ -197,8 +197,13 @@
 .video-gallery-content {
   width: 100%;
   height: 350px;
+  max-width: 80vw;
 }
-
+.video-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (max-width: 1500px) {
   .video-gallery {
     grid-template-columns: 1fr 1fr;
