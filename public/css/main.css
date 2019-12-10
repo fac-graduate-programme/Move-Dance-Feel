@@ -72,6 +72,7 @@ body {
 }
 .footer__container-left {
   font-size: 14px;
+  margin-left: 60px;
 }
 
 .footer__container a {
@@ -105,6 +106,7 @@ body {
   justify-content: space-evenly;
   height: 121px;
   padding-right: 5%;
+  margin-right: 40px;
 }
 .flex {
   display: flex;
@@ -112,7 +114,7 @@ body {
 .flex p {
   color: rgb(85, 76, 76);
   padding-left: 22px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .flex i {
   font-size: 30px;
@@ -145,16 +147,15 @@ body {
 
 .navbar-logo {
   width: 250px;
-  margin: 10px;
+  margin: 15px;
   max-width: 40vw;
 }
 
 .navbar-link {
   font-family: "Optima";
-  margin: 0 15px;
   color: black;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   padding-right: 20px;
 }
 
