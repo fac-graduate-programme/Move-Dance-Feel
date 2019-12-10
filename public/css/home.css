@@ -86,7 +86,7 @@ header-video {
 .who-content {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   margin: auto;
   padding-left: 90px;
   padding-right: 90px;
