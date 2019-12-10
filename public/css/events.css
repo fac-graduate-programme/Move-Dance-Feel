@@ -1,7 +1,9 @@
 .heading-title p {
-  font-size: 25px;
-  padding: 32px;
-  margin-top: 25px;
+  /* font-size: 25px; */
+ margin: auto;
+ width: 80%;
+  margin-top: 50px;
+  text-align: left;
 }
 
 .heading-title.location-heading {
@@ -21,6 +23,7 @@
   font-weight: bold;
   font-family: "Optima", sans-serif;
   color: #000000;
+  text-decoration: none;
 }
 .events-content {
   display: flex;
@@ -48,9 +51,9 @@
 .events-details span,
 .center-events-details span {
   display: block;
-  font-size: 18px;
+  /* font-size: 18px; */
   padding-top: 10px;
-  color: rgb(85, 76, 76);
+  /* color: rgb(85, 76, 76); */
   font-family: "Optima", sans-serif;
 }
 .center-events-details {

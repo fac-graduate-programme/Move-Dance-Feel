@@ -98,7 +98,6 @@
 
 .event_section p {
   display: inline;
-  font-family: "Kite one";
   font-size: 16px;
 }
 
@@ -117,5 +116,4 @@
 .event_link {
   color: #000000;
   font-weight: bold;
-  font-family: "Kite one";
 }
