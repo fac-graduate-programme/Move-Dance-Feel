@@ -214,3 +214,6 @@
   margin-left: 348px;
 }
 
+.section.option{
+  min-height: 68vh;
+}
